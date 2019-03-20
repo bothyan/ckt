@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.45490829%" y1="2.45490829%" x2="94.1723842%" y2="94.1723842%" id="linearGradient-1">
+            <stop stop-color="#AEFB17" offset="0%"></stop>
+            <stop stop-color="#7FE500" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="8.62563776%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FCFFEE" offset="0%"></stop>
+            <stop stop-color="#CEFF30" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="1" y="20" width="46" height="2"></rect>
+        <rect id="path-4" x="18" y="21" width="2" height="26"></rect>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计中心-图案" transform="translate(-180.000000, -134.000000)">
+            <g id="侧边内容">
+                <g id="Group-19" transform="translate(80.000000, 130.000000)">
+                    <g id="Group-17" transform="translate(100.000000, 4.000000)">
+                        <rect id="Rectangle" fill="#B2EB1A" x="0" y="0" width="64" height="64"></rect>
+                        <g id="吸附框" transform="translate(8.000000, 8.000000)">
+                            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="48" height="22"></rect>
+                            <circle id="Oval" fill="#FFFAB9" cx="36.5" cy="7.5" r="3.5"></circle>
+                            <rect id="Rectangle" fill="url(#linearGradient-1)" x="18" y="20" width="30" height="28"></rect>
+                            <rect id="Rectangle-Copy-20" fill="url(#linearGradient-1)" x="0" y="20" width="20" height="28"></rect>
+                            <path d="M2,37.8333333 C3.16666667,36.0833333 4.33333333,32 6.66666667,32 C9,32 12.5,41.9166667 15.4166667,41.9166667 C16.2987347,41.9166667 17.2730394,41.3366342 18,40.5 L18,46 L2,46 L2,37.8333333 Z" id="Path-2" fill="url(#linearGradient-2)"></path>
+                            <path d="M3,20 C7,20 8.67330739,6 12.9255319,6 C17.1777564,6 19.4148936,18 23.5,18 C27.5851064,18 29.1914894,13 32,13 C34.8085106,13 37.3108578,20 40.5,20 L3,20 Z" id="Path-4" fill="url(#linearGradient-2)"></path>
+                            <path d="M20,33 C22.9620003,35.954691 25.1732412,44 28.5,44 C32.5851064,44 34.1914894,39 37,39 C39.8085106,39 42.3108578,46 45.5,46 C45.5,46 28.2649441,46 20,46 C20,46 20,33 20,33 Z" id="Path-4-Copy" fill="url(#linearGradient-2)"></path>
+                            <circle id="Oval-Copy" fill="#FFFAB9" cx="40.5" cy="31.5" r="2.5"></circle>
+                            <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="46" height="46"></rect>
+                            <g id="Rectangle-3">
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <rect stroke="#FFFFFF" stroke-width="1" x="1.5" y="20.5" width="45" height="1"></rect>
+                            </g>
+                            <g id="Rectangle-4">
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <rect stroke="#FFFFFF" stroke-width="1" x="18.5" y="21.5" width="1" height="25"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

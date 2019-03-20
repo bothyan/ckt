@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>素材左对齐@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="素材左对齐" fill="#626262">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Fill-1" points="0.558828125 15.1948828 1.80882812 15.1948828 1.80882812 0.802226562 0.558828125 0.802226562"></polygon>
+                <path d="M4.21375,12.3208789 L14.1882227,12.3208789 L14.1882227,9.87335937 L4.21375,9.87335937 L4.21375,12.3208789 Z M2.96375,13.5708789 L15.4382227,13.5708789 L15.4382227,8.62337891 L2.96375,8.62337891 L2.96375,13.5708789 Z" id="Fill-2"></path>
+                <path d="M4.21375,6.07177734 L10.895918,6.07177734 L10.895918,3.62425781 L4.21375,3.62425781 L4.21375,6.07177734 Z M2.96375,7.32177734 L12.145918,7.32177734 L12.145918,2.37427734 L2.96375,2.37427734 L2.96375,7.32177734 Z" id="Fill-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

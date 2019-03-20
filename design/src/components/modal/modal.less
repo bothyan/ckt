@@ -1,0 +1,97 @@
+.modal-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+
+  .modal1-center {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    .modal1-close {
+      top: 0;
+      right: -34px;
+      background-position: -11px -57px;
+    }
+  }
+
+  .modal3-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 400px;
+    background-color: #fff;
+
+    .modal3-close {
+      left: -42px;
+      top: 20px;
+      background-position: -11px -57px;
+    }
+
+  }
+  .modal5-bottom {
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    transition: all .5s ease;
+    background-color: #fff;
+    &[class*="display"] {
+      bottom: 0;
+    }
+    .modal5-close {
+      top: 16px;
+      right: 16px;
+      background-position: -12px -30px; // 小黑色关闭
+    }
+  }
+
+  .modal-close {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-image: url("./img/modal_close.svg");
+    cursor: pointer;
+  }
+
+  .modal6 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+}
+
+.modal4 {
+  position: absolute;
+  z-index: 1000;
+}
+
+.modal-wrap-enter-active, .modal-wrap-leave-active {
+  transition: opacity .5s;  
+}
+.modal-wrap-enter, .modal-wrap-leave-active {
+  opacity: 0;
+}
+
+.modal1-enter-active, .modal1-leave-active {
+  transition: opacity .5s;  
+}
+.modal1-enter, .modal1-leave-active {
+  opacity: 0;
+}
+
+.modal3-enter-active, .modal3-leave-active {
+  transition: all .5s ease;
+}
+.modal3-enter, .modal3-leave-active {
+  transform: translateX(370px);
+  opacity: 0;
+}

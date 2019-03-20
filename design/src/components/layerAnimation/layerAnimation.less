@@ -1,0 +1,45 @@
+
+@default-color: rgb(155, 155, 155);
+@active-color: #07aefc;
+
+.layout-animation-wrap {
+	position: absolute;
+	animation: hidewrap 2s cubic-bezier(0, 1.17, 1, 1);
+}
+.animation-default {
+	width: 8px;
+	height: 8px;
+	margin-top: 6px;
+	background: @default-color;
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.animation-active {
+	background: @active-color;
+}
+
+
+.up-down {
+	transform-origin: 4px 11px;
+	transform: rotate(180deg);
+	animation: animation 0.5s cubic-bezier(0, 1.17, 1, 1)
+}
+
+.down-up {
+	transform-origin: 4px -3px;
+	transform: rotate(180deg);
+	animation: animation 0.5s cubic-bezier(0, 1.17, 1, 1)
+}
+
+@keyframes hidewrap {
+	0% {opacity: 1}
+  50% {opacity: 1}
+  100% {opacity: 0}
+}
+
+@keyframes animation {
+	from { transform: rotate(0deg) }
+	to { transform: rotate(180deg) }
+}

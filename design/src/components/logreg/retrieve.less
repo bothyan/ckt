@@ -1,0 +1,307 @@
+@import "../../base/base.less";
+
+.retrieve-page-hole {
+  height: 100%;
+  width: 100%;
+}
+
+.sprite {
+  display: inline-block;
+  background: url("./sprite.svg");
+}
+
+.go-back {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-size: 14px;
+  color: #BFBFBF;
+
+  &:hover {
+    cursor: pointer;
+  }
+  span:nth-child(2) {
+    position: relative;
+  }
+  .go-back-icon {
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-position: -10px -10px;
+    margin-right: 4px;
+  }
+}
+
+.tel-retrieve {
+  .vcode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 40px;
+    .text {
+      text-align: center;
+      width: 80px;
+      height: 40px;
+      float: left;
+      background-color: #FBFBFB;
+
+      span {
+        line-height: 40px;
+        color: #CDCDCD;
+        font-size: 14px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .img {
+      float: left;
+      width: 100px;
+      height: 40px;
+      overflow: hidden;
+
+      img {
+        width: 100px;
+        height: 40px;
+        border: none;
+      }
+    }
+  }
+  .get-vcode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #F3F3F3;
+    span {
+      width: 150px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 40px;
+      color: @complementaryColorI;
+    }
+  }
+  .bePointer {
+    .get-vcode;
+    cursor: pointer;
+    background-color: #07aefc;
+    span {
+      color: white;
+    }
+  }
+
+  .next-step-button {
+    width: 100%;
+    margin: 0 0 28.6%;
+  }
+}
+
+.tel-re-pw-page {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  .header {
+    text-align: center;
+    margin: -6% 0 21%;
+    font-size: 24px;
+    color: #626262;
+  }
+}
+
+.mail-retrieve {
+  position: relative;
+  .input-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 40px;
+    .vcode {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 180px;
+      height: 40px;
+      .text {
+        text-align: center;
+        width: 80px;
+        height: 40px;
+        float: left;
+        background-color: #FBFBFB;
+
+        span {
+          line-height: 40px;
+          color: #CDCDCD;
+          font-size: 14px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .img {
+        float: left;
+        width: 100px;
+        height: 40px;
+        overflow: hidden;
+
+        img {
+          width: 100px;
+          height: 40px;
+          border: none;
+        }
+      }
+    }
+  }
+  .next-step-button {
+    width: 100%;
+    margin: 0 0 28.6%;
+  }
+}
+
+.next-step-button {
+  width: 100%;
+  button {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #cdcdcd;
+    background-color: #f3f3f3;
+    border: 1px solid #e8e8e8;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.next-step-button {
+  width: 100%;
+  margin: 2% 0 28.6%;
+}
+
+.retrieve-tab {
+  margin-top: 21%;
+  margin-bottom: 21%;
+  font-size: 24px;
+  color: #cdcdcd;
+  text-align: center;
+
+  div {
+    display: inline-block;
+    &[class~="active"] {
+      color: #626262;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  div:nth-child(1) {
+    margin-right: 13.7%;
+  }
+}
+
+.re-pw-success {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  .success-img {
+    width: 104px;
+    height: 104px;
+    background-position: -13px -114px;
+    margin-top: 12.6%;
+    margin-bottom: 9.1%;
+  }
+  .success-txt {
+    line-height: 24px;
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 9.1%;
+  }
+  .to-sign-in-button {
+    button {
+      width: 57%;
+      height: 32px;
+      font-size: 14px;
+      color: #FFFFFF;
+      background-color: #07AEFC;
+      border: none;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.mail-retrieve-success {
+  height: 100%;
+  width: 100%;
+  .mail-retrieve-success-content {
+    text-align: center;
+    .success-img {
+      width: 104px;
+      height: 104px;
+      background-position: -13px -114px;
+      margin-top: 12.6%;
+      margin-bottom: 9.1%;
+    }
+    .success-txt {
+      color: #626262;
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 9.1%;
+    }
+    .to-verify-mail-button {
+      a {
+        display: inline-block;
+        width: 57.1%;
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color: #07AEFC;
+        border: 1px solid #e8e8e8;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .to-sign-in-button {
+      margin-top: 4%;
+      button {
+        width: 57.1%;
+        height: 32px;
+        font-size: 14px;
+        color: #9B9B9B;
+        background-color: #FFFFFF;
+        border: 1px solid #D8D8D8;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.btnActived, .rePwBtnActived, .mailBtnActived {
+  button {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #07AEFC;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

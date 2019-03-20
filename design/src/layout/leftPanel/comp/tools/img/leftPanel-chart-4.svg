@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.528609954%" y1="57.5424465%" x2="100%" y2="55.4776634%" id="linearGradient-1">
+            <stop stop-color="#7AFFB2" offset="0%"></stop>
+            <stop stop-color="#B1FF6C" offset="0%"></stop>
+            <stop stop-color="#7AFFB2" offset="32.9281945%"></stop>
+            <stop stop-color="#45ECF8" offset="65.9546199%"></stop>
+            <stop stop-color="#52B4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="12 42 25.5 20.5 39.5 30.75 53.5 13 53.5 55 12 55"></polygon>
+    </defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-3721.000000, -4783.000000)">
+            <g id="Group" transform="translate(3625.000000, 4687.000000)">
+                <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="96" y="96" width="72" height="72" rx="4"></rect>
+                <g id="Group-6" transform="translate(100.000000, 100.000000)">
+                    <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="64" height="64"></rect>
+                    <rect id="Rectangle-31-Copy-4" fill="#BFBFBF" x="4" y="55" width="56" height="1"></rect>
+                    <g id="Path-17-Copy">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <polyline id="Path-17-Copy" stroke="url(#linearGradient-1)" stroke-width="2" points="12 42 25.5 20.5 39.5 30.75 53.5 13"></polyline>
+                    <circle id="Oval-10-Copy-4" stroke="#21E674" stroke-width="2" fill="#7AFFB2" cx="25" cy="20" r="4"></circle>
+                    <circle id="Oval-10-Copy-5" stroke="#69DB05" stroke-width="2" fill="#B1FF6C" cx="11" cy="42" r="4"></circle>
+                    <circle id="Oval-10-Copy-6" stroke="#00C4D3" stroke-width="2" fill="#45ECF8" cx="39" cy="30" r="4"></circle>
+                    <circle id="Oval-10-Copy-7" stroke="#037CD9" stroke-width="2" fill="#52B4FF" cx="53" cy="13" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

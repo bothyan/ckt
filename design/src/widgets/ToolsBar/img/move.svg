@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="40px" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图层调整" fill="#626262">
+            <g transform="translate(1.000000, 2.000000)">
+                <path d="M3.22542578,4.86531055 L8.99999609,8.27206836 L14.7745664,4.86531055 L8.99999609,1.77851367 L3.22542578,4.86531055 Z M8.99999609,9.72339648 L0.674351563,4.81159961 L8.99999609,0.361130859 L17.3256602,4.81159961 L8.99999609,9.72339648 Z" id="Fill-1"></path>
+                <polygon id="Fill-2" points="9 12.6128652 1.19667969 8.00921289 1.83181641 6.93261133 9 11.1615371 16.1681836 6.93261133 16.8033203 8.00921289"></polygon>
+                <polygon id="Fill-3" points="9 15.5687402 1.37685547 11.071377 2.01201172 9.99477539 9 14.1174121 15.9879883 9.99477539 16.6231445 11.071377"></polygon>
+            </g>
+        </g>
+        <g id="图层调整-copy" transform="translate(0.000000, 20.000000)" fill="url(#linearGradient-1)">
+            <g id="图层调整" transform="translate(1.000000, 2.000000)">
+                <path d="M3.22542578,4.86531055 L8.99999609,8.27206836 L14.7745664,4.86531055 L8.99999609,1.77851367 L3.22542578,4.86531055 Z M8.99999609,9.72339648 L0.674351563,4.81159961 L8.99999609,0.361130859 L17.3256602,4.81159961 L8.99999609,9.72339648 Z" id="Fill-1"></path>
+                <polygon id="Fill-2" points="9 12.6128652 1.19667969 8.00921289 1.83181641 6.93261133 9 11.1615371 16.1681836 6.93261133 16.8033203 8.00921289"></polygon>
+                <polygon id="Fill-3" points="9 15.5687402 1.37685547 11.071377 2.01201172 9.99477539 9 14.1174121 15.9879883 9.99477539 16.6231445 11.071377"></polygon>
+            </g>
+        </g>
+        <g id="Artboard-2"></g>
+    </g>
+</svg>

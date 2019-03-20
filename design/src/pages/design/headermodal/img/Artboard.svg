@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-2">
+                <g id="Group-8">
+                    <g id="Group-7-Copy" fill="url(#linearGradient-1)">
+                        <g id="Group-6">
+                            <path d="M120,61.0909091 C120,93.1371865 93.1375468,120 61.0909091,120 C26.8624532,120 0,93.1371865 0,61.0909091 C0,26.8628135 26.8624532,0 61.0909091,0 C93.1375468,0 120,26.8628135 120,61.0909091 Z" id="Stroke-11"></path>
+                        </g>
+                    </g>
+                    <path d="M49.6727936,85.8241208 C48.5859987,85.8241208 47.499071,85.4095222 46.6698739,84.5803251 L23.7437956,61.6545123 C22.0854015,59.9959854 22.0854015,57.3069343 23.7437956,55.6485401 C25.4024552,53.9898806 28.0912409,53.9900133 29.7497678,55.6484074 L49.6727936,75.5713006 L90.2502322,34.9939947 C91.9087591,33.3353351 94.5976775,33.3353351 96.2562044,34.9939947 C97.9145985,36.6523889 97.9145985,39.3414399 96.2562044,40.9999668 L52.6757133,84.5801924 C51.8465163,85.4095222 50.7595886,85.8241208 49.6727936,85.8241208" id="Fill-1" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

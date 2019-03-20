@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="40px" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="36.9723689%" y1="4.2109933%" x2="59.4141124%" y2="75.8431893%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图层置顶" fill="#626262">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Fill-1" points="0.506289062 2.37304687 8.54285156 2.37304687 8.54285156 1.12304688 0.506289062 1.12304688"></polygon>
+                <polygon id="Fill-2" points="0.506289062 6.53957031 8.54285156 6.53957031 8.54285156 5.28957031 0.506289062 5.28957031"></polygon>
+                <polygon id="Fill-3" points="0.506289062 10.7061133 8.54285156 10.7061133 8.54285156 9.45611328 0.506289062 9.45611328"></polygon>
+                <polygon id="Fill-4" points="0.506289062 14.8726367 15.4974805 14.8726367 15.4974805 13.6226367 0.506289062 13.6226367"></polygon>
+                <polygon id="Fill-5" points="16.0235 4.06448242 12.4560391 0.497021484 8.73400781 4.2190332 9.61789453 5.10291992 11.7537539 2.96706055 11.7537539 12.1666895 13.0037539 12.1666895 13.0037539 2.81250977 15.1396133 4.94836914"></polygon>
+            </g>
+        </g>
+        <g id="图层置顶-copy" transform="translate(0.000000, 20.000000)" fill="url(#linearGradient-1)">
+            <g id="图层置顶" transform="translate(2.000000, 2.000000)">
+                <polygon id="Fill-1" points="0.506289062 2.37304687 8.54285156 2.37304687 8.54285156 1.12304688 0.506289062 1.12304688"></polygon>
+                <polygon id="Fill-2" points="0.506289062 6.53957031 8.54285156 6.53957031 8.54285156 5.28957031 0.506289062 5.28957031"></polygon>
+                <polygon id="Fill-3" points="0.506289062 10.7061133 8.54285156 10.7061133 8.54285156 9.45611328 0.506289062 9.45611328"></polygon>
+                <polygon id="Fill-4" points="0.506289062 14.8726367 15.4974805 14.8726367 15.4974805 13.6226367 0.506289062 13.6226367"></polygon>
+                <polygon id="Fill-5" points="16.0235 4.06448242 12.4560391 0.497021484 8.73400781 4.2190332 9.61789453 5.10291992 11.7537539 2.96706055 11.7537539 12.1666895 13.0037539 12.1666895 13.0037539 2.81250977 15.1396133 4.94836914"></polygon>
+            </g>
+        </g>
+        <g id="Artboard-Copy"></g>
+    </g>
+</svg>

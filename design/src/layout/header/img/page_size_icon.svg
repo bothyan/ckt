@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape Copy 23</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="272.942342" height="36" rx="4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2-Copy" transform="translate(-937.000000, -522.000000)">
+            <g id="Rectangle-47-Copy-12" transform="translate(864.000000, 508.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <path d="M942.625,527 L947,522.625 L946.375,522 L942,526.375 L937.625,522 L937,522.625 L941.375,527 L937,531.375 L937.625,532 L942,527.625 L946.375,532 L947,531.375 L942.625,527 Z" id="Combined-Shape-Copy-23" fill="#626262"></path>
+        </g>
+    </g>
+</svg>

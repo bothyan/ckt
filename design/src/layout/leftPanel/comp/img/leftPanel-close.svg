@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="40px" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ui--1.8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-6">
+            <g id="Page-1" fill="#9B9B9B">
+                <polygon id="Fill-1" points="17.5931445 3.29073828 16.7092578 2.40685156 10 9.11610937 3.29332031 2.40942969 2.40943359 3.29331641 9.11611328 9.99999609 2.40685547 16.7092539 3.29074219 17.5931406 10 10.8838828 16.7066797 17.5905625 17.5905664 16.7066758 10.8838867 9.99999609"></polygon>
+            </g>
+            <g id="Page-1-Copy-2" transform="translate(0.000000, 20.000000)" fill="url(#linearGradient-1)">
+                <polygon id="Fill-1" points="17.5931445 3.29073828 16.7092578 2.40685156 10 9.11610937 3.29332031 2.40942969 2.40943359 3.29331641 9.11611328 9.99999609 2.40685547 16.7092539 3.29074219 17.5931406 10 10.8838828 16.7066797 17.5905625 17.5905664 16.7066758 10.8838867 9.99999609"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

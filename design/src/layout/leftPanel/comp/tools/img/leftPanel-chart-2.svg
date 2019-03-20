@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-3817.000000, -4687.000000)">
+            <g id="Group" transform="translate(3625.000000, 4687.000000)">
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="192" y="0" width="72" height="72" rx="4"></rect>
+                <g id="Group-2" transform="translate(196.000000, 4.000000)">
+                    <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="64" height="64"></rect>
+                    <rect id="Rectangle-31-Copy-2" fill="#BFBFBF" x="8" y="6" width="1" height="52"></rect>
+                    <rect id="Rectangle-4-Copy-8" fill="#B1FF6C" x="11" y="10" width="12" height="8"></rect>
+                    <rect id="Rectangle-4-Copy-9" fill="#7AFFB2" x="11" y="22" width="33" height="8"></rect>
+                    <rect id="Rectangle-4-Copy-10" fill="#45ECF8" x="11" y="34" width="26" height="8"></rect>
+                    <rect id="Rectangle-4-Copy-11" fill="#52B4FF" x="11" y="46" width="45" height="8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

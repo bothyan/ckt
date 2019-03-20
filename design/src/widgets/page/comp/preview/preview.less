@@ -1,0 +1,307 @@
+
+// 微博预览
+.weibo-preview {
+  width: 300px;
+  height: 220px;
+  margin-left: -150px;
+  transform-origin: top center;
+  position: absolute;
+  top: 16.2%;
+  left: 50%;
+  .top-img {
+    width: 110px;
+    height: 110px;
+    background: url(./img/weibo_img.svg) no-repeat 0 0;
+    margin: 0 auto;
+  }
+  .weibo-name {
+    width: auto;
+    height: 22px;
+    margin-top: 9.6px;
+    text-align: center;
+      .nickname {
+        font-size: 22px;
+        line-height: 22px;
+        color: #fff;
+      }
+      .nickname-remark {
+        font-size: 11px;
+        color: #fff;
+      }
+  }
+  .mid-text{
+    height: 11px;
+    font-size: 11px;
+    line-height: 11px;
+    color: #fff;
+    text-align: center;
+    margin-top: 9.6px;
+  }
+  .btn-wrap{
+    widows: auto;
+    height: 34.4px;
+    font-size: 13.7px;
+    margin-top: 17.9px;
+      color: #fff;
+  }
+  .attention {
+    display: block;
+    width: 103.4px;
+    height: 34.4px;
+    background: #F56A30;
+    border-radius: 2.75px;
+    text-align: center;
+    line-height: 34.4px;
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    .add-img{
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      top: 50%;
+      left: 26px;
+      margin-top: -5px;
+      background: url(./img/weibo_add.svg) no-repeat 0 0;
+    }
+  }
+  .cancel{
+    display: block;
+    width: 103.4px;
+    height: 34.4px;
+    text-align: center;
+    line-height: 34.4px;
+    background: #666b75;
+    border-radius: 2.75px;
+    float: left;
+    margin-left: 11px;
+  }
+  .menu{
+    display: block;
+    width: 34.4px;
+    height: 34.4px;
+    background: #666b75;
+    float: left;
+    margin-left: 11px;
+    border-radius: 2.75px;
+    position: relative;
+    .menu-img{
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -8px;
+      margin-top: -8px;
+      background: url(./img/weibo_menu.svg) no-repeat 0 0;
+    }
+  }
+}
+
+/*微信朋友圈预览*/
+.weixin-preview {
+  width: 0px;
+  height: 0px;
+  transform-origin: bottom right;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  .img-wrap {
+    width: 860px;
+    height: 252px;
+    position: absolute;
+    right: 36.3px;
+    bottom: -79.3px;
+    .preview-title {
+      display: block;
+      height: 57.5px;
+      font-size: 57.5px;
+      line-height: 57.5px;
+      color: #fff;
+      text-shadow: #000 2px 1px 0px;
+      position: absolute;
+      bottom: 121.7px;
+      right: 324.7px;
+    }
+    .preview-text {
+      display: block;
+      height: 30.3px;
+      font-size: 30.3px;
+      line-height: 30.3px;
+      color: #515151;
+      position: absolute;
+      bottom: 24.8px;
+      right: 291.3px;
+    }
+    .head-img {
+      display: block;
+      width: 252px;
+      height: 252px;
+      background: url(./img/weixin_preview.svg) no-repeat 0 0;
+      float: right;
+    }
+  }
+}
+
+// 订阅号文章首图
+.dingyuehao-preview {
+  width: 900px;
+  height: 80px;
+  font-size: 50px;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transform-origin: left bottom;
+  transition: height .2s linear;
+  &[class~="dingyue-preview-open"] {
+    height: 160px;
+  }
+  .top-img{
+    display: block;
+    width: 59px;
+    height: 59px;
+    background: url(./img/gongzhognhao_img.svg) no-repeat 0 0;
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    margin-left: -29.5px;
+    cursor: pointer;
+    transform: rotate(180deg);
+    transition: transform .2s linear;
+    &[class~="dingyue-open"] {
+      transform: rotate(0);
+    }
+  }
+  .text-wrap{
+    transition: height .2s linear;
+    overflow: hidden;
+  }
+  .title{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 900px;
+    margin-top: 20px;
+    padding-left:20px ;
+  }
+  .text{
+    display: block;
+    width: 900px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    padding-left:20px ;
+  }
+}
+
+// .preview_accross_bar{
+//   width: 300px;
+//   height: 220px;
+//   position: absolute;
+//   top: 16.2%;
+//     left: 50%;
+//     margin-left: -150px;
+//     transform-origin: top center;
+// }
+// .preview_accross_bar_img{
+//   width: 110px;
+//   height: 110px;
+//   background: url(./img/designIcon.svg);
+//   background-position: -370px 0px;
+//   margin: 0 auto;
+// }
+// .preview_accross_bar_name{
+//   width: auto;
+//   height: 22px;
+//   margin-top: 9.6px;
+//   text-align: center;
+// }
+// .preview_accross_bar_nickname{
+//     font-size: 22px;
+//     line-height: 22px;
+//     color: #fff;
+// }
+// .preview_accross_bar_nickname_remark{
+//     font-size: 11px;
+//     color: #fff;
+// }
+// /*.preview_accross_bar_remark{
+//   font-size: 16px;
+//   color: #fff;
+// }*/
+// .preview_accross_bar_view{
+//     height: 11px;
+//     font-size: 11px;
+//     line-height: 11px;
+//     color: #fff;
+//     text-align: center;
+//     margin-top: 9.6px;
+// }
+// .preview_accross_bar_remark{
+//   widows: auto;
+//   height: 34.4px;
+//   font-size: 13.7px;
+//   margin-top: 17.9px;
+//     color: #fff;
+// }
+// .preview_accross_bar_concern{
+//   display: block;
+//     width: 103.4px;
+//     height: 34.4px;
+//     background: #F56A30;
+//     border-radius: 2.75px;
+//     text-align: center;
+//     line-height: 34.4px;
+//     float: left;
+//     margin-left: 18px;
+//     position: relative;
+// }
+// .preview_accross_bar_cansel{
+//   display: block;
+//     width: 103.4px;
+//     height: 34.4px;
+//     text-align: center;
+//     line-height: 34.4px;
+//     background: #666b75;
+//     border-radius: 2.75px;
+//     float: left;
+//     margin-left: 11px;
+// }
+// .preview_accross_bar_tips{
+//   display: block;
+//     width: 34.4px;
+//     height: 34.4px;
+//     background: #666b75;
+//     float: left;
+//     margin-left: 11px;
+//     border-radius: 2.75px;
+//     position: relative;
+// }
+// .preview_accross_add_img{
+//     width: 10px;
+//     height: 10px;
+//     position: absolute;
+//     top: 50%;
+//     left: 26px;
+//     margin-top: -5px;
+//     background-image: url(./img/designIcon.svg);
+//     background-position: -370px -130px;
+// }
+// .preview_accross_tips_img{
+//     width: 15px;
+//     height: 11px;
+//   position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     margin-left: -7px;
+//     margin-top: -5.5px;
+//     background-image: url(./img/designIcon.svg);
+//     background-position: -370px -115px;
+// }
+// /*公众号首图预览*/
+// .preview_top_bar_img_up{
+//     background-position: -500px 0px !important;
+// }

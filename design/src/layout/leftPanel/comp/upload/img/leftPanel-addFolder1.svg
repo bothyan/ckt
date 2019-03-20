@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>添加 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="72" height="72" rx="4"></rect>
+        <filter x="-18.1%" y="-15.3%" width="136.1%" height="136.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-3">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="添加-copy">
+            <g id="添加">
+                <g id="Rectangle-Copy-7">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M36,0 L68.0098214,0 C70.2135362,0 72,1.7852456 72,3.99017859 L72,36 L36,0 Z" id="Rectangle-Copy-7" fill="url(#linearGradient-3)"></path>
+                <g id="Group-3-Copy-2" transform="translate(53.000000, 3.000000)">
+                    <circle id="Oval-3" stroke="#07AEFC" fill="#FFFFFF" cx="8" cy="8" r="8"></circle>
+                    <g id="会员-(1)" transform="translate(4.000000, 4.000000)" fill="url(#linearGradient-3)">
+                        <g id="Group">
+                            <polygon id="Shape" points="0.00629751678 0.0127318792 2.86694198 0.0127318792 2.86694198 0.759284252 0.00629751678 0.759284252 0.00629751678 0.0127318792"></polygon>
+                            <path d="M2.86694199,4.34071714 L2.86694199,0.692160686 L0.722176902,0.692160686 L0.722176902,0.692160686 L0.722176902,8.99349965 L2.86694199,8.99349965 L9.98896999,0.0127318792 L6.41197685,0.00874897013 L2.86694199,4.34071714 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(8.000000, 8.000000)">
+                    <polygon id="Line" fill="#BFBFBF" fill-rule="nonzero" points="5.09090909 29.3236364 50.7322981 29.3236364 50.7322981 27.1515152 5.09090909 27.1515152"></polygon>
+                    <polygon id="Line" fill="#BFBFBF" fill-rule="nonzero" points="27.1515152 5.09090909 27.1515152 50.7054545 29.3236364 50.7054545 29.3236364 5.09090909"></polygon>
+                    <rect id="Rectangle-3-Copy-6" x="0.135757576" y="0.746666667" width="54.3030303" height="54.3030303"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

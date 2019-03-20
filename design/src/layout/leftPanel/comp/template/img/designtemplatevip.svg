@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="右边栏及弹出框" transform="translate(-6996.000000, -7093.000000)">
+            <g id="Group-3-Copy" transform="translate(6997.000000, 7094.000000)">
+                <circle id="Oval-3" stroke="#07AEFC" fill="#FFFFFF" cx="5" cy="5" r="5"></circle>
+                <g id="会员-(1)" transform="translate(2.500000, 2.500000)" fill="url(#linearGradient-1)">
+                    <g id="Group">
+                        <polygon id="Shape" points="0.00393594799 0.00795742451 1.79183874 0.00795742451 1.79183874 0.474552657 0.00393594799 0.474552657 0.00393594799 0.00795742451"></polygon>
+                        <polygon id="Shape" points="0.451360563 0.432600429 1.79183874 0.432600429 1.79183874 5.62093728 0.451360563 5.62093728 0.451360563 0.432600429"></polygon>
+                        <polygon id="Shape" points="6.24310624 0.00795742451 1.79183159 5.62093728 0.489884773 4.3039123 4.00748553 0.00546810633"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

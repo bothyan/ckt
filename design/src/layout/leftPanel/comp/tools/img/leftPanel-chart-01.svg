@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="72" height="72" rx="4"></rect>
+        <filter x="-18.1%" y="-15.3%" width="136.1%" height="136.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-3">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="右边栏及弹出框" transform="translate(-8455.000000, -12481.000000)" fill="#F2F2F2">
+            <rect id="Rectangle-19" x="0" y="0" width="14159" height="27856"></rect>
+        </g>
+        <g id="Artboard-3">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-4" transform="translate(8.000000, 12.000000)">
+                <rect id="Rectangle-31" fill="#BFBFBF" x="0" y="47" width="56" height="1"></rect>
+                <rect id="Rectangle-4" fill="#B1FF6C" x="2" y="33" width="10" height="12"></rect>
+                <rect id="Rectangle-4-Copy" fill="#7AFFB2" x="16" y="12" width="10" height="33"></rect>
+                <rect id="Rectangle-4-Copy-2" fill="#45ECF8" x="30" y="19" width="10" height="26"></rect>
+                <rect id="Rectangle-4-Copy-3" fill="#52B4FF" x="44" y="0" width="10" height="45"></rect>
+            </g>
+            <g id="选中">
+                <rect id="Rectangle" stroke="url(#linearGradient-3)" stroke-width="4" x="2" y="2" width="68" height="68" rx="4"></rect>
+                <rect id="Rectangle-3" fill-opacity="0.32" fill="url(#linearGradient-3)" x="4" y="4" width="64" height="64"></rect>
+                <g id="选择-copy" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+                    <g id="选择" transform="translate(5.000000, 12.000000)">
+                        <polygon id="Fill-1" points="19.5612813 38.688475 0.92596875 20.0531625 5.16859375 15.810475 19.5612813 30.203225 48.8317813 0.9326625 53.0744063 5.17535"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

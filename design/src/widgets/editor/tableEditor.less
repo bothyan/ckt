@@ -1,0 +1,261 @@
+
+.pos-ab{
+  position: absolute;
+}
+.clearfix{
+  &:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+.table-editor {
+  position: absolute;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+  }
+  .resize-point {
+    background: #3f4652;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.15);
+    &:hover {
+      background: #07aefc;
+    }
+  }
+  .point-bg {
+    background: #07aefc;
+  }
+  .e-resize-point {
+    width: 8px;
+    height: 16px;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    cursor: e-resize;
+    top: 50%;
+    margin-top: -8px;
+    right: -8px;
+  }
+  .e-point {
+    right: 0;
+    top: 50%;
+  }
+  .w-point{
+    left: 0;
+    top: 50%;
+  }
+  .s-resize-point{
+    width: 16px;
+    height: 8px;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    cursor: s-resize;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -8px;
+  }
+  .s-point{
+    bottom: 0;
+    left: 50%;
+  }
+  .n-point{
+    top: 0;
+    left: 50%;
+  }
+  .se-resize-point{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    cursor: se-resize;
+    right: -8px;
+    bottom: -8px;
+  }
+  .lock-point{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: -8px;
+    bottom: -8px;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.15);
+    background: #FF3D67;
+  }
+  .se-point{
+    right: 0;
+    bottom: 0;
+  }
+  .nw-point{
+    left: 0;
+    top: 0
+  }
+  .mid-point{
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    top: 50%;
+  }
+  .rect-show{
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0 6px;
+    color: #fff;
+    background: #464F57;
+    opacity: 0.3;
+    top: 0;
+    right: 100%;
+    margin-right: 5px;
+  }
+}
+.lock{
+  &:before{
+    border: 1px dashed #FF3D67;
+  }
+}
+.top-controller{
+  position: absolute;
+  top: -26px;
+  left: 0;
+  background: #f1f1f1;
+  border: 1px solid #d8d8d8;
+  border-right: none;
+  .controller-item {
+    float: left;
+    border-right: 1px solid #d8d8d8;
+    height: 23px;
+    .op-btn{
+      display: block;
+      width: 15px;
+      height: 15px;
+      margin: 4px auto;
+      background: url(img/top-op.png) no-repeat 3px 5px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      &:hover{
+        background-color: #fff;
+        border: 1px solid #d8d8d8;
+      }
+    }
+  }
+  .add-col{
+    background: url(img/add-col.png) no-repeat;
+    right: -15px;
+    top: -1px;
+    width: 13px;
+    height: 24px;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto;
+    &:hover{
+      background-position: -13px 0;
+    }
+  }
+  .resize{
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 23px;
+    margin-left: -2.5px;
+    cursor: url("img/col-resize.png") 7.5 7.5, auto;
+  }
+}
+.left-controller{
+  position: absolute;
+  left: -26px;
+  top: 0;
+  background: #f1f1f1;
+  border: 1px solid #d8d8d8;
+  border-bottom: none;
+  .controller-item{
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    width: 23px;
+    .op-btn{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -7.5px;
+      margin-top: -7.5px;
+      width: 15px;
+      height: 15px;
+      background: url(img/left-op.png) no-repeat 5px 3px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      &:hover{
+        background-color: #fff;
+        border: 1px solid #d8d8d8;
+      }
+    }
+  }
+  .add-row{
+    background: url(img/add-row.png) no-repeat;
+    bottom: -15px;
+    left: -1px;
+    width: 24px;
+    height: 13px;
+    position: absolute;
+    pointer-events: auto;
+    cursor: pointer;
+    &:hover{
+      background-position: 0 -13px;
+    }
+  }
+  .resize{
+    position: absolute;
+    left: 0;
+    width: 23px;
+    height: 5px;
+    margin-top: -2.5px;
+    cursor: url("img/row-resize.png") 7.5 7.5, auto;
+  }
+}
+.option-list{
+  position: absolute;
+  border: 1px solid #d8d8d8;
+  background: #fff;
+  li{
+    background: #fff;
+    span{
+      display: block;
+      width: 60px;
+      height: 20px;
+      line-height: 20px;
+      margin: 3px;
+      padding-left: 5px;
+      cursor: default;
+      &:hover{
+        background: #e0e0e0;;
+      }
+    }
+  }
+}
+.textarea-container{
+  .active{
+    display: block;
+    background: rgba(71,210,233,.2);
+    border: 1px solid #00a2eb;
+  }
+  textarea{
+    position: absolute;
+    display: none;
+    resize: none;
+    text-align: center;
+    &::-webkit-scrollbar{
+      width: 2px;
+      height: 5px;
+    }
+    &::-webkit-scrollbar-corner{
+      background-color: rgba(0,0,0,.5);
+    }
+    &::-webkit-scrollbar-thumb:vertical {
+      background-color: rgba(0,0,0,.5);
+    }
+  }
+}

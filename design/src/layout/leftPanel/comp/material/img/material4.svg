@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#D8FF83" offset="0%"></stop>
+            <stop stop-color="#7ED720" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="103.103542%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#E4FF86" offset="0%"></stop>
+            <stop stop-color="#53E415" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#8FF31F" offset="0%"></stop>
+            <stop stop-color="#6ADF09" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计中心-图案" transform="translate(-84.000000, -239.000000)">
+            <g id="侧边内容">
+                <g id="Group-19" transform="translate(80.000000, 130.000000)">
+                    <g id="Group-15" transform="translate(4.000000, 109.000000)">
+                        <rect id="Rectangle-Copy-15" fill="#93DF4B" x="0" y="0" width="64" height="64"></rect>
+                        <g id="Group-3" transform="translate(7.000000, 4.000000)">
+                            <polygon id="Rectangle-7-Copy" fill="url(#linearGradient-1)" points="1 28 26.5 40.5 29 55.5 6 43"></polygon>
+                            <polygon id="Rectangle-7-Copy-2" fill="url(#linearGradient-2)" points="19.5 0.5 43 12.5 48 27.5 23.4298246 16.2685185"></polygon>
+                            <rect id="Rectangle-39" fill="#FFFFFF" transform="translate(24.507937, 27.805003) rotate(-20.000000) translate(-24.507937, -27.805003) " x="1.93438027" y="19.6932228" width="45.1471138" height="16.2235598"></rect>
+                            <path d="M11.4812335,24.1821766 L11.4812335,25.1401737 L13.9431828,25.1401737 L13.9431828,31.5371215 L15.0556955,31.5371215 L15.0556955,25.1401737 L17.5073438,25.1401737 L17.5073438,24.1821766 L11.4812335,24.1821766 Z M18.3932335,24.1821766 L18.3932335,31.5371215 L23.8527865,31.5371215 L23.8527865,30.5791245 L19.5160472,30.5791245 L19.5160472,28.2407877 L23.4304437,28.2407877 L23.4304437,27.2827907 L19.5160472,27.2827907 L19.5160472,25.1401737 L23.6776687,25.1401737 L23.6776687,24.1821766 L18.3932335,24.1821766 Z M24.5017522,24.1821766 L26.9740026,27.7360366 L24.3266344,31.5371215 L25.6966732,31.5371215 L27.6641725,28.6219263 L29.6316717,31.5371215 L31.0017105,31.5371215 L28.3337403,27.7360366 L30.8265927,24.1821766 L29.456554,24.1821766 L27.6641725,26.8398458 L25.8717909,24.1821766 L24.5017522,24.1821766 Z M31.2077313,24.1821766 L31.2077313,25.1401737 L33.6696807,25.1401737 L33.6696807,31.5371215 L34.7821933,31.5371215 L34.7821933,25.1401737 L37.2338416,25.1401737 L37.2338416,24.1821766 L31.2077313,24.1821766 Z" id="TEXT" fill="url(#linearGradient-3)" transform="translate(24.357538, 27.859649) rotate(-21.000000) translate(-24.357538, -27.859649) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

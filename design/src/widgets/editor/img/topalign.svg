@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>素材上对齐@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="素材上对齐" fill="#626262">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Fill-1" points="0.549257813 1.79273438 15.4937305 1.79273438 15.4937305 0.542734375 0.549257813 0.542734375"></polygon>
+                <path d="M9.89630859,14.2043555 L12.3438281,14.2043555 L12.3438281,4.22988281 L9.89630859,4.22988281 L9.89630859,14.2043555 Z M8.64632812,15.4543555 L13.5938281,15.4543555 L13.5938281,2.97988281 L8.64632812,2.97988281 L8.64632812,15.4543555 Z" id="Fill-2"></path>
+                <path d="M3.64722656,10.9120508 L6.09474609,10.9120508 L6.09474609,4.22988281 L3.64722656,4.22988281 L3.64722656,10.9120508 Z M2.39722656,12.1620508 L7.34472656,12.1620508 L7.34472656,2.97988281 L2.39722656,2.97988281 L2.39722656,12.1620508 Z" id="Fill-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

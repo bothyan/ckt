@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.6643702%" y1="13.2152842%" x2="81.3869619%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8DE5FF" offset="0%"></stop>
+            <stop stop-color="#76DCFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.81218821%" y1="0%" x2="89.9243317%" y2="86.3776235%" id="linearGradient-2">
+            <stop stop-color="#AAF0FF" offset="0%"></stop>
+            <stop stop-color="#83F5FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.6131489%" y1="2.94762436%" x2="78.1588816%" y2="94.8944395%" id="linearGradient-3">
+            <stop stop-color="#EAFEFF" offset="0%"></stop>
+            <stop stop-color="#D0EFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.7480987%" y1="9.27614849%" x2="77.8292277%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#BAF9FF" offset="0%"></stop>
+            <stop stop-color="#80E0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="85.3149927%" id="linearGradient-5">
+            <stop stop-color="#AAF8FF" offset="0%"></stop>
+            <stop stop-color="#6AF1FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计中心-图案" transform="translate(-276.000000, -343.000000)">
+            <g id="侧边内容">
+                <g id="Group-19" transform="translate(80.000000, 130.000000)">
+                    <g id="Group-10" transform="translate(196.000000, 213.000000)">
+                        <rect id="Rectangle-Copy-17" fill="#4C9CD2" x="0" y="0" width="64" height="64"></rect>
+                        <g id="Group-7" transform="translate(8.000000, 8.000000)">
+                            <rect id="Rectangle-17-Copy-4" fill="#E0FDFF" x="32" y="26" width="2" height="18"></rect>
+                            <rect id="Rectangle-17" fill="#E0FDFF" x="14" y="23" width="4" height="26"></rect>
+                            <circle id="Oval-8-Copy-4" fill="url(#linearGradient-1)" cx="33" cy="25" r="5"></circle>
+                            <rect id="Rectangle-17-Copy-3" fill="#E0FDFF" x="39" y="27" width="2" height="21"></rect>
+                            <circle id="Oval-8-Copy-5" fill="url(#linearGradient-2)" cx="40" cy="27" r="8"></circle>
+                            <rect id="Rectangle-17-Copy" fill="#E0FDFF" transform="translate(11.552813, 33.103763) rotate(-61.000000) translate(-11.552813, -33.103763) " x="10.5528132" y="27.6037628" width="2" height="11"></rect>
+                            <rect id="Rectangle-17-Copy-2" fill="#E0FDFF" transform="translate(20.998188, 36.840005) rotate(35.000000) translate(-20.998188, -36.840005) " x="20.4981875" y="28.8400046" width="1" height="16"></rect>
+                            <circle id="Oval-8-Copy-6" fill="url(#linearGradient-3)" cx="41" cy="5" r="5"></circle>
+                            <circle id="Oval-8" fill="url(#linearGradient-4)" cx="16.5" cy="14.5" r="12.5"></circle>
+                            <circle id="Oval-8-Copy" fill="#AAF8FF" cx="4" cy="29" r="4"></circle>
+                            <circle id="Oval-8-Copy-2" fill="url(#linearGradient-5)" cx="24.5" cy="32.5" r="4.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

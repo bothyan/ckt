@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>添加</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="右边栏及弹出框" transform="translate(-10136.000000, -19609.000000)">
+            <g id="Group-26" transform="translate(10038.000000, 19501.000000)">
+                <g id="添加" transform="translate(98.000000, 108.000000)">
+                    <g>
+                        <rect id="Rectangle-Copy-7" fill="url(#linearGradient-1)" x="0" y="0" width="72" height="72" rx="4"></rect>
+                        <g id="Group-2" transform="translate(8.000000, 8.000000)">
+                            <polygon id="Line" fill="#FFFFFF" fill-rule="nonzero" points="5.09090909 29.3236364 50.7322981 29.3236364 50.7322981 27.1515152 5.09090909 27.1515152"></polygon>
+                            <polygon id="Line" fill="#FFFFFF" fill-rule="nonzero" points="27.1515152 5.09090909 27.1515152 50.7054545 29.3236364 50.7054545 29.3236364 5.09090909"></polygon>
+                            <rect id="Rectangle-3-Copy-6" x="0.135757576" y="0.746666667" width="54.3030303" height="54.3030303"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

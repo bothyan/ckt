@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.528609954%" y1="57.5424465%" x2="100%" y2="55.4776634%" id="linearGradient-1">
+            <stop stop-color="#7AFFB2" offset="0%"></stop>
+            <stop stop-color="#B1FF6C" offset="0%"></stop>
+            <stop stop-color="#7AFFB2" offset="32.9281945%"></stop>
+            <stop stop-color="#45ECF8" offset="65.9546199%"></stop>
+            <stop stop-color="#52B4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="8 33 21.5 11.5 35.5 21.75 49.5 4 49.5 46 8 46"></polygon>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-4">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="右边栏及弹出框" transform="translate(-8399.000000, -12477.000000)" fill="#F2F2F2">
+            <rect id="Rectangle-19" x="0" y="0" width="14159" height="27856"></rect>
+        </g>
+        <g id="Artboard-3">
+            <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="0" y="0" width="72" height="72" rx="4"></rect>
+            <g id="Group-6" transform="translate(8.000000, 13.000000)">
+                <rect id="Rectangle-31-Copy-4" fill="#BFBFBF" x="0" y="46" width="56" height="1"></rect>
+                <g id="Path-17-Copy">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+                <polyline id="Path-17-Copy" stroke="url(#linearGradient-1)" stroke-width="2" points="8 33 21.5 11.5 35.5 21.75 49.5 4"></polyline>
+                <circle id="Oval-10-Copy-4" stroke="#21E674" stroke-width="2" fill="#7AFFB2" cx="21" cy="11" r="4"></circle>
+                <circle id="Oval-10-Copy-5" stroke="#69DB05" stroke-width="2" fill="#B1FF6C" cx="7" cy="33" r="4"></circle>
+                <circle id="Oval-10-Copy-6" stroke="#00C4D3" stroke-width="2" fill="#45ECF8" cx="35" cy="21" r="4"></circle>
+                <circle id="Oval-10-Copy-7" stroke="#037CD9" stroke-width="2" fill="#52B4FF" cx="49" cy="4" r="4"></circle>
+            </g>
+            <g id="选中-copy">
+                <rect id="Rectangle" stroke="url(#linearGradient-4)" stroke-width="4" x="2" y="2" width="68" height="68" rx="4"></rect>
+                <rect id="Rectangle-3" fill-opacity="0.32" fill="url(#linearGradient-4)" x="4" y="4" width="64" height="64"></rect>
+                <g id="选择-copy" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+                    <g id="选择" transform="translate(5.000000, 12.000000)">
+                        <polygon id="Fill-1" points="19.5612813 38.688475 0.92596875 20.0531625 5.16859375 15.810475 19.5612813 30.203225 48.8317813 0.9326625 53.0744063 5.17535"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

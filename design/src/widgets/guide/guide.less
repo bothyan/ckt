@@ -1,0 +1,75 @@
+
+.filter-guide {
+  position: absolute;
+  left: 10px;
+  top: 52px;
+  width: 215px;
+  height: 120px;
+  padding: 0 15px;
+  background: url(./img/guide_back.svg) no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10001;
+  .guide-text {
+    margin-top: 30px;
+    color: #fff;
+  }
+}
+
+.frame-guide {
+  position: absolute;
+  left: 10px;
+  top: 52px;
+  width: 286px;
+  height: 200px;
+  padding: 0 15px;
+  background: url(./img/guide_back.svg) no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  border-radius: 5px;
+  z-index: 10001;
+  .guide-gif {
+    position: relative;
+    top: -20px;
+    width: 100%;
+  }
+  .guide-text {
+    position: relative;
+    top: -55px;
+    color: #fff;
+  }
+}
+
+.i-know {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 2px 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.frame-enter {
+  opacity: 0;
+  top: 352px;
+}
+.frame-leave-to {
+  opacity: 0;
+}
+.frame-enter-active, .frame-leave-active {
+  transition: 1s;
+}
+
+.filter-enter {
+  opacity: 0;
+  top: 72px;
+}
+.filter-leave-to {
+  opacity: 0;
+}
+.filter-enter-active, .filter-leave-active {
+  transition: 1s;
+}

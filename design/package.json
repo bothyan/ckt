@@ -1,0 +1,48 @@
+{
+  "name": "design",
+  "description": "创客贴功能页",
+  "version": "1.0.0",
+  "author": "bianhao <binnull@foxmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env webpack-dev-server --open --hot --inline --host --port 80 --config ./build/webpack.dev.conf.js",
+    "unit": "cross-env webpack-dev-server --open --hot --config ./build/webpack.dev.conf.js",
+    "mock": "json-server --watch ./mock/mock-index.js --routes ./mock/routes.json",
+    "build-dll": "webpack --config ./build/webpack.dll.conf.js",
+    "build": "npm run clean && webpack --progress --hide-modules --config ./build/webpack.build.conf.js",
+    "clean": "rimraf dist/*"
+  },
+  "dependencies": {
+    "axios": "0.16.2",
+    "clipboard": "1.7.1",
+    "crypto-js": "3.1.9-1",
+    "d3": "4.10.0",
+    "qr.js": "0.0.0",
+    "ss-drop-down": "1.1.5",
+    "ss-messsage": "1.0.4",
+    "ss-waterfall": "1.0.4",
+    "vue": "2.4.4",
+    "vue-router": "2.8.1",
+    "vuex": "2.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "6.0.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-env": "1.6.1",
+    "cross-env": "3.0.0",
+    "css-loader": "0.25.0",
+    "eslint": "4.11.0",
+    "extract-text-webpack-plugin": "2.1.2",
+    "file-loader": "0.9.0",
+    "html-webpack-plugin": "2.30.1",
+    "json-server": "0.9.5",
+    "less": "2.7.3",
+    "less-loader": "4.0.4",
+    "vue-loader": "12.1.0",
+    "vue-template-compiler": "2.4.4",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.9.4",
+    "webpack-merge": "4.1.0"
+  }
+}

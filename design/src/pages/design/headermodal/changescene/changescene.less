@@ -1,0 +1,200 @@
+   .center {
+      text-align: center;
+    }
+    .chose{
+       position: absolute;
+			/* top: 45%; */
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+    }
+    .imgmask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.24);
+    cursor: pointer;
+    transition: opacity .4s ease;
+    }
+    a{
+      cursor:pointer;
+    }
+    .kindname{
+      vertical-align: middle;
+      display:inline-block;
+      margin: 0 12px 0 42px;
+    }
+    .template-wrap{
+      position:relative;
+    }
+    .size{
+    width: 100%;
+    height: 14px;
+    opacity: 0;
+    color: #bdbdbd;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin-top: 4px;
+    transition: opacity 1s ease;
+    }
+    .temp-wrap:hover .size{
+      opacity: 1;
+    }
+    .share-wrap {
+      background-color: #FFFFFF;
+    }
+    .allkinds{
+      overflow-y:scroll;
+    }
+    ::-webkit-scrollbar{
+			width: 16px;  
+    	height: 16px;  
+    	background-color: #fff;  
+		}  
+    .chat-symbol{
+      height:106px;
+      line-height:106px;
+      color:#626262;
+      font-size:18px;
+    }
+    .share-title {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      color: #626262;
+      background: #FAFAFA;
+      overflow: hidden;
+        span{
+          display:inline-block;
+					&:nth-child(1){
+							font-size:16px;
+							float:left;
+							img{
+									vertical-align: middle;
+									display:inline-block;
+									margin:0 10px 0 15px;
+							}
+					}
+					&:nth-child(2){
+							font-size:14px;
+							float:right;
+					}
+        }
+    
+    }
+    //按钮始终拥有的样式
+    .change-scene-button{
+      display:inline-block;
+			height:32px;
+			text-align:center;
+			color:white;
+			margin-right:17px;
+			border:none;
+			padding:5px;
+    }
+    //会员状态下选择了场景
+    .active{
+      background:#07AEFC;
+      cursor:pointer;
+    }
+    //会员状态下没有选择场景
+    .cantclick{
+      background:#626262;
+      cursor: not-allowed;
+    }
+    //非会员状态
+    .upvip{
+      outline: none;
+      background:#626262;
+      cursor:pointer; 
+    }
+ .chat-media-all ul li {
+  float: left;
+	margin-right: 33px;
+	margin-top: 40px;
+	width: 120px;
+	height: auto;
+	vertical-align: bottom;
+	position: relative;
+}
+.chat-media-all ul{
+  padding-left:42px;
+  margin-bottom:20px;
+}
+.chat-media-all hr{
+  border:none;
+  background-color: #BFBFBF;
+  height:1px;
+}
+.chat-media-all li{
+  cursor:pointer;
+}
+ .chat-media-item .pic-img{
+  vertical-align: bottom;
+	width: 120px;
+	text-align: center;
+	height:125px;
+	display:table-cell;
+}
+ .chat-media-item .pic-img a{
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+ .chat-media-item .pic-img a img {
+  max-width: 120px;
+  max-height: 120px;
+}
+ .chat-media-item .title {
+  text-align: center;
+  display: block;
+}
+ .chat-media-item  .pic-title {
+  margin-top: 10px;
+	color: #626262;
+	font-size: 14px;
+	vertical-align: bottom;
+	text-align: center;
+	height: 16px;
+	display: inline-block;
+}
+.print-icon{
+  position: relative;
+	display: inline-block;
+	margin-left: 5px;
+	width: 16px;
+	height: 16px;
+	background:url('../img/printoff.png');
+	// background-position: -16px -156px;
+}
+.print-tips{
+  opacity: 0;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	width: 76px;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #07aefc;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+	transition: opacity 1s ease;
+}
+.print-icon:hover .print-tips{
+  opacity: 1;
+}
+ .pic-title .kind-title{
+  line-height: 16px;
+	height: 16px;
+	display: inline-block;
+}

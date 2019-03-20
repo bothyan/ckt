@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="40px" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 4@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" fill="#626262">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle-11" x="5.06666667" y="0.8" width="8.53333333" height="2.13333333"></rect>
+                <rect id="Rectangle-11-Copy" transform="translate(9.333333, 7.333333) rotate(-90.000000) translate(-9.333333, -7.333333) " x="4.93333333" y="6.26666667" width="8.8" height="2.13333333"></rect>
+                <rect id="Rectangle-11-Copy-2" transform="translate(2.133333, 6.666667) rotate(-90.000000) translate(-2.133333, -6.666667) " x="-2.66666667" y="6.13333333" width="9.6" height="1.06666667"></rect>
+                <rect id="Rectangle-11-Copy-3" x="4.8" y="13.0666667" width="9.6" height="1.06666667"></rect>
+                <polygon id="Rectangle-13" transform="translate(2.259966, 2.259966) rotate(135.000000) translate(-2.259966, -2.259966) " points="0.661928813 0.661928813 3.85800385 3.85800385 0.661928813 3.85800385"></polygon>
+                <polygon id="Rectangle-13-Copy-2" transform="translate(5.726633, 13.726633) rotate(-315.000000) translate(-5.726633, -13.726633) " points="4.12859548 12.1285955 7.32467051 15.3246705 4.12859548 15.3246705"></polygon>
+                <polygon id="Rectangle-13-Copy" transform="translate(2.259966, 10.526633) rotate(315.000000) translate(-2.259966, -10.526633) " points="0.661928813 8.92859548 3.85800385 12.1246705 0.661928813 12.1246705"></polygon>
+                <polygon id="Rectangle-13-Copy-3" transform="translate(13.726633, 13.726633) rotate(-135.000000) translate(-13.726633, -13.726633) " points="12.1285955 12.1285955 15.3246705 15.3246705 12.1285955 15.3246705"></polygon>
+            </g>
+        </g>
+        <g id="Artboard-3-Copy" transform="translate(0.000000, 20.000000)" fill="url(#linearGradient-1)">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle-11" x="5.06666667" y="0.8" width="8.53333333" height="2.13333333"></rect>
+                <rect id="Rectangle-11-Copy" transform="translate(9.333333, 7.333333) rotate(-90.000000) translate(-9.333333, -7.333333) " x="4.93333333" y="6.26666667" width="8.8" height="2.13333333"></rect>
+                <rect id="Rectangle-11-Copy-2" transform="translate(2.133333, 6.666667) rotate(-90.000000) translate(-2.133333, -6.666667) " x="-2.66666667" y="6.13333333" width="9.6" height="1.06666667"></rect>
+                <rect id="Rectangle-11-Copy-3" x="4.8" y="13.0666667" width="9.6" height="1.06666667"></rect>
+                <polygon id="Rectangle-13" transform="translate(2.259966, 2.259966) rotate(135.000000) translate(-2.259966, -2.259966) " points="0.661928813 0.661928813 3.85800385 3.85800385 0.661928813 3.85800385"></polygon>
+                <polygon id="Rectangle-13-Copy-2" transform="translate(5.726633, 13.726633) rotate(-315.000000) translate(-5.726633, -13.726633) " points="4.12859548 12.1285955 7.32467051 15.3246705 4.12859548 15.3246705"></polygon>
+                <polygon id="Rectangle-13-Copy" transform="translate(2.259966, 10.526633) rotate(315.000000) translate(-2.259966, -10.526633) " points="0.661928813 8.92859548 3.85800385 12.1246705 0.661928813 12.1246705"></polygon>
+                <polygon id="Rectangle-13-Copy-3" transform="translate(13.726633, 13.726633) rotate(-135.000000) translate(-13.726633, -13.726633) " points="12.1285955 12.1285955 15.3246705 15.3246705 12.1285955 15.3246705"></polygon>
+            </g>
+        </g>
+        <g id="Artboard-4"></g>
+    </g>
+</svg>

@@ -1,0 +1,162 @@
+/**
+ * Created by suti on 2017/5/16.
+ */
+module.exports = function () {
+	return [
+		{
+			"page":{
+				"pageNo":1,
+				"pageSize":1,
+				"pageTotal":15,
+				"recordCount":15,
+				"recordData":[
+					{
+						"activityContent":"<p style='text-align: left;'>大时代啊 sad发送 双方都</p>",
+						"activityId":10,
+						"activityName":"第三方啊第三方啊第三方啊第三方啊第三方啊第三方啊第三方啊",
+						"designKinds":[
+							{
+								"imgUrl":"//moniimgpub.chuangkit.com/designKind/22",
+								"kindHeight":"29.7cm",
+								"kindId":22,
+								"kindTitle":"信纸",
+								"kindWidth":"21cm",
+								"pKindId":3,
+								"pKindName":"工作文档"
+							}
+						],
+						"end":"2017-07-21",
+						"imgUrl":"//moniimgpub.chuangkit.com/designActivity/2017/05/08/148865",
+						"isDone":false,
+						"joinCount":0,
+						"publishTime":"2017-05-08 17:50:06",
+						"start":"2017-05-01",
+						"viewCount":0,
+						"workCount":0
+					},
+					{
+						"activityContent":"<p style='text-align: left;color:red'>大时代啊 sad发送 双方都</p>",
+						"activityId":10,
+						"activityName":"第三方",
+						"designKinds":[
+							{
+								"imgUrl":"//moniimgpub.chuangkit.com/designKind/22",
+								"kindHeight":"29.7cm",
+								"kindId":22,
+								"kindTitle":"信纸",
+								"kindWidth":"21cm",
+								"pKindId":3,
+								"pKindName":"工作文档"
+							}
+						],
+						"end":"2017-07-21",
+						"imgUrl":"//moniimgpub.chuangkit.com/designActivity/2017/05/08/148865",
+						"isDone":false,
+						"joinCount":0,
+						"publishTime":"2017-05-08 17:50:06",
+						"start":"2017-05-01",
+						"viewCount":0,
+						"workCount":0
+					},
+					{
+						"activityContent":"<p style='text-align: left;'>大时代啊 sad发送 双方都</p>",
+						"activityId":10,
+						"activityName":"第三方",
+						"designKinds":[
+							{
+								"imgUrl":"//moniimgpub.chuangkit.com/designKind/22",
+								"kindHeight":"29.7cm",
+								"kindId":22,
+								"kindTitle":"信纸",
+								"kindWidth":"21cm",
+								"pKindId":3,
+								"pKindName":"工作文档"
+							}
+						],
+						"end":"2017-07-21",
+						"imgUrl":"//moniimgpub.chuangkit.com/designActivity/2017/05/08/148865",
+						"isDone":false,
+						"joinCount":0,
+						"publishTime":"2017-05-08 17:50:06",
+						"start":"2017-05-01",
+						"viewCount":0,
+						"workCount":0
+					},
+					{
+						"activityContent":"<p style='text-align: left;'>大时代啊 sad发送 双方都</p>",
+						"activityId":10,
+						"activityName":"第三方",
+						"designKinds":[
+							{
+								"imgUrl":"//moniimgpub.chuangkit.com/designKind/22",
+								"kindHeight":"29.7cm",
+								"kindId":22,
+								"kindTitle":"信纸",
+								"kindWidth":"21cm",
+								"pKindId":3,
+								"pKindName":"工作文档"
+							}
+						],
+						"end":"2017-07-21",
+						"imgUrl":"//moniimgpub.chuangkit.com/designActivity/2017/05/08/148865",
+						"isDone":false,
+						"joinCount":0,
+						"publishTime":"2017-05-08 17:50:06",
+						"start":"2017-05-01",
+						"viewCount":0,
+						"workCount":0
+					},
+					{
+						"activityContent":"<p style='text-align: left;'>大时代啊 sad发送 双方都</p>",
+						"activityId":10,
+						"activityName":"第三方",
+						"designKinds":[
+							{
+								"imgUrl":"//moniimgpub.chuangkit.com/designKind/22",
+								"kindHeight":"29.7cm",
+								"kindId":22,
+								"kindTitle":"信纸",
+								"kindWidth":"21cm",
+								"pKindId":3,
+								"pKindName":"工作文档"
+							}
+						],
+						"end":"2017-07-21",
+						"imgUrl":"//moniimgpub.chuangkit.com/designActivity/2017/05/08/148865",
+						"isDone":false,
+						"joinCount":0,
+						"publishTime":"2017-05-08 17:50:06",
+						"start":"2017-05-01",
+						"viewCount":0,
+						"workCount":0
+					},
+					{
+						"activityContent":"<p style='text-align: left;'>大时代啊 sad发送 双方都</p>",
+						"activityId":10,
+						"activityName":"第三方",
+						"designKinds":[
+							{
+								"imgUrl":"//moniimgpub.chuangkit.com/designKind/22",
+								"kindHeight":"29.7cm",
+								"kindId":22,
+								"kindTitle":"信纸",
+								"kindWidth":"21cm",
+								"pKindId":3,
+								"pKindName":"工作文档"
+							}
+						],
+						"end":"2017-07-21",
+						"imgUrl":"//moniimgpub.chuangkit.com/designActivity/2017/05/08/148865",
+						"isDone":false,
+						"joinCount":0,
+						"publishTime":"2017-05-08 17:50:06",
+						"start":"2017-05-01",
+						"viewCount":0,
+						"workCount":0
+					},
+				]
+			},
+			"code":1
+		}
+	];
+}

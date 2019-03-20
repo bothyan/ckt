@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-3721.000000, -4687.000000)">
+            <g id="Group" transform="translate(3625.000000, 4687.000000)">
+                <rect id="Rectangle-Copy" fill="#FFFFFF" x="96" y="0" width="72" height="72" rx="4"></rect>
+                <g id="Group-3" transform="translate(100.000000, 4.000000)">
+                    <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="64" height="64"></rect>
+                    <rect id="Rectangle-31-Copy" fill="#BFBFBF" x="4" y="55" width="56" height="1"></rect>
+                    <polygon id="Rectangle-4-Copy-4" fill="#B1FF6C" points="11 41 16 53 6 53"></polygon>
+                    <polygon id="Rectangle-4-Copy-5" fill="#7AFFB2" points="25 20 30 53 20 53"></polygon>
+                    <polygon id="Rectangle-4-Copy-6" fill="#45ECF8" points="39 27 44 53 34 53"></polygon>
+                    <polygon id="Rectangle-4-Copy-7" fill="#52B4FF" points="53 8 58 53 48 53"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

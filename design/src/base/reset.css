@@ -1,0 +1,242 @@
+/*
+ * CSS Reset使用Yahoo(YUI) CSS Reset
+ * @Author: bianhao 
+ * @Date: 2014-10-08 14:35:39 
+ * @Last Modified by: bianhao
+ * @Last Modified time: 2017-11-06 22:23:13
+ */
+html {
+    font-size: 100px;
+    user-select: none;
+    background: #ECECEC;
+}
+body {
+    font: 14px/1.2 -apple-system,PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Helvetica Neue,sans-serif;
+    text-rendering: optimizeLegibility;
+}
+input, textarea, keygen, select, button {
+    font: 14px/1.2 -apple-system,PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Helvetica Neue,sans-serif;
+    text-rendering: optimizeLegibility;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td,menu {
+    padding: 0; margin: 0;
+}
+table {
+    border-collapse: collapse; border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal; font-style: normal;
+}
+ol,ul,menu {
+    list-style: none;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal; font-size: 100%;
+}
+q:before,q:after {
+    content:"";
+}
+abbr,acronym {
+    border: 0;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+}
+/*
+    一些方便的东西
+ */
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+input:focus {
+    box-shadow: 0px 2px 4px rgba(7, 174, 252, 0.38) !important;
+}
+/*
+客服按钮
+*/
+.customerServiceBtn {
+    width: 32px;
+    height: 48px;
+    position: absolute;
+    bottom: 16px;
+    left: 11px;
+}
+.customerServiceBtn span {
+    display: inline-block;
+    width: 32px;
+}
+.customerServiceIconBack {
+    background: #D8D8D8;
+    height: 32px;
+    border-radius: 50%;
+}
+.customerServiceBtn:hover .customerServiceIconBack{
+    background: linear-gradient(to bottom right, #5EA2FF, #00D5FF, #00E3FF);
+}
+.customerServiceIcon {
+    background: url(./logo.png) 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    height: 32px;
+}
+.customerServiceText {
+    height: 14px;
+    color: #8f8f8f;
+    font-size: 12px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+@font-face{font-family:'Microsoft YaHei';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91.woff')}
+@font-face{font-family:'KaiTi';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/26/0e8e2ace-0871-45d6-bf41-d730be3d9c20')}
+@font-face{font-family:'SimHei';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/26/0259e546-3cbf-4522-83a1-5e31a09b12d9')}
+@font-face{font-family:'FangSong';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/26/8a860378-51e2-4eec-a553-c08952ef77be')}
+@font-face{font-family:'Arial';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/26/cc374918-292e-4531-a267-3e8d61239f9e')}
+@font-face{font-family:'zcool-gdh';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E7%AB%99%E9%85%B7%E9%AB%98%E7%AB%AF%E9%BB%91.woff')}
+@font-face{font-family:'HappyZcool';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E7%AB%99%E9%85%B7%E5%BF%AB%E4%B9%90%E4%BD%93_2016.woff')}
+@font-face{font-family:'AaYinXiang';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%8D%B0%E8%B1%A1.woff')}
+@font-face{font-family:'AaQingCong';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E9%9D%92%E8%91%B1.woff')}
+@font-face{font-family:'AaPangYaer';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E8%83%96%E4%B8%AB%E5%84%BF.woff')}
+@font-face{font-family:'AaHeiTi-Li';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E7%BB%86%E9%BB%91.woff')}
+@font-face{font-family:'AaDonuts';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E7%94%9C%E7%94%9C%E5%9C%88.woff')}
+@font-face{font-family:'AaBanSong';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E7%89%88%E5%AE%8B.woff')}
+@font-face{font-family:'AaWanWan';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E6%B9%BE%E6%B9%BE.woff')}
+@font-face{font-family:'AaTaoTaoti';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E6%B7%98%E6%B7%98%E4%BD%93.woff')}
+@font-face{font-family:'AaRunXing';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E6%B6%A6%E8%A1%8C.woff')}
+@font-face{font-family:'AaMianHuatang';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E6%A3%89%E8%8A%B1%E7%B3%96.woff')}
+@font-face{font-family:'fangmeng';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E6%96%B9%E8%90%8C.woff')}
+@font-face{font-family:'AaPOP';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E6%89%8B%E5%86%99%E6%B5%B7%E6%8A%A5.woff')}
+@font-face{font-family:'AaGothic';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%B9%BB%E5%A4%9C%E4%BC%AF%E7%88%B5%E7%AE%80%E4%BD%93.woff')}
+@font-face{font-family:'AaJoanna';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%A8%9C%E5%A8%9C%E4%BD%93.woff')}
+@font-face{font-family:'AaYeHui';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%A4%9C%E8%8C%B4%E4%BD%93NotoSans.woff')}
+@font-face{font-family:'AaPaperTape';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E7%BA%B8%E8%83%B6%E5%B8%A6.woff')}
+@font-face{font-family:'AaXiHe';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%A4%95%E7%A6%BE.woff')}
+@font-face{font-family:'AaCarrie';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%98%89%E4%B8%BD%E4%B8%BD.woff')} 
+@font-face{font-family:'奇思粗萌吃货体';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aa%E5%90%83%E8%B4%A7%E4%BD%93.woff')} 
+@font-face{font-family:'STHupo';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/04/28/df32e24f-fb2b-45b6-ad20-17e6d7493eb2')} 
+@font-face{font-family:'STLiti';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/58c4a0a7-e41a-4b05-8405-1853efe5a5d5')} 
+@font-face{font-family:'STXinwei';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/c693fecf-083a-4886-9bf1-34700b7aa27c')} 
+@font-face{font-family:'STXingkai';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/1ef14908-d2ca-42b8-b73f-0a1e92fff507')} 
+@font-face{font-family:'shutifangmifuti';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/09/df596a6d-9753-45b8-955f-b4ced90985ea')} 
+@font-face{font-family:'SCFwxz';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/5aee645e-1157-4d41-bf9e-16368e505aa7')} 
+@font-face{font-family:'shutifangyanti';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/09/5a8f347c-62b0-4d02-af2e-66d3f2a7a6ca')} 
+@font-face{font-family:'Noto Sans S Chinese Black';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/80072a25-3d76-4ed0-a079-155e48b25070')} 
+@font-face{font-family:'Noto Sans S Chinese Light';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/f8c2a937-5813-4fb5-8e4d-e0de97139196')} 
+@font-face{font-family:'Noto Sans S Chinese Bold';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/fb5b47c1-c25b-4c8d-a66d-da22d1e49ddb')} 
+@font-face{font-family:'WenQuanYi Zen Hei';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/703d4840-ad1b-4073-a75e-06a2a2273781')} 
+@font-face{font-family:'Bauhaus ITC';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/044892de-8e52-4397-b405-9614db21b5cd')} 
+@font-face{font-family:'LPS-XC-J';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/5b2b2ff3-8446-4f02-bd0e-41f0a35a933d')} 
+@font-face{font-family:'Droid Sans';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/05/30183e13-0866-4629-9584-3adb12b7fafd')} 
+@font-face{font-family:'naiyouxiaotianxin';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/05/09/21e08d16-90b7-441e-ac9c-ebf481d9dc5d')} 
+@font-face{font-family:'FZKai-Z03S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E6%A5%B7%E4%BD%93%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZXiDengXian-Z06S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E7%BB%86%E7%AD%89%E7%BA%BF%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZShuSong-Z01S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E4%B9%A6%E5%AE%8B%E7%AE%80%E4%BD%93.woff')}
+@font-face{font-family:'奇思黑体恐怖医院体';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%A5%87%E6%80%9D%E9%BB%91%E4%BD%93%E6%81%90%E6%80%96%E5%8C%BB%E9%99%A2%E4%BD%93.woff')}
+@font-face{font-family:'奇思黑体小丑体';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%A5%87%E6%80%9D%E9%BB%91%E4%BD%93%E5%B0%8F%E4%B8%91%E4%BD%93.woff')} 
+@font-face{font-family:'QisiRunItMovie';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%A5%87%E6%80%9D_%E5%A5%94%E8%B7%91%E5%90%A7%E7%94%B5%E5%BD%B1.woff')} 
+@font-face{font-family:'QisiDAZHENTAN';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%A4%A7%E4%BE%A6%E6%8E%A2.woff')} 
+@font-face{font-family:'奇思源黑';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%A5%87%E6%80%9D%E6%BA%90%E9%BB%91.woff')} 
+@font-face{font-family:'喵想细黑朱古力体';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%96%B5%E6%83%B3%E7%BB%86%E9%BB%91%E6%9C%B1%E5%8F%A4%E5%8A%9B%E4%BD%93.woff')} 
+@font-face{font-family:'AaHeiTi';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%AD%97%E4%BD%93%E7%AE%A1%E5%AE%B6%E9%BB%91%E4%BD%93.woff')} 
+@font-face{font-family:'AaRoundLi';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%AD%97%E4%BD%93%E7%AE%A1%E5%AE%B6%E7%BB%86%E5%9C%86.woff')} 
+@font-face{font-family:'AaKaiTi';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%AD%97%E4%BD%93%E7%AE%A1%E5%AE%B6%E6%A5%B7%E4%BD%93.woff')} 
+@font-face{font-family:'AaFangSong';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%AD%97%E4%BD%93%E7%AE%A1%E5%AE%B6%E4%BB%BF%E5%AE%8B.woff')} 
+@font-face{font-family:'UpperEastSide';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/UpperEastSide.woff')} 
+@font-face{font-family:'Timber';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Timber.woff')} 
+@font-face{font-family:'Telavision';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/telavision.woff')} 
+@font-face{font-family:'SeasideResortNF';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/SEASRN__.woff')} 
+@font-face{font-family:'Raconteur NF';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/RaconteurNF.woff')} 
+@font-face{font-family:'PrismMedium';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/7f506440-ed2c-4aeb-93dc-f4fab34c5ddc')} 
+@font-face{font-family:'Prisma';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/4b0e491d-c3db-41d7-a2b1-d8cde1a56c93')} 
+@font-face{font-family:'Plume';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/8cb71c2e-e3e3-4636-982c-24338bad221d')} 
+@font-face{font-family:'Pupcat';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/pupcat+rg.woff')} 
+@font-face{font-family:'Plug-NickelBlack';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Plug-NickelBlack.woff')} 
+@font-face{font-family:'Penna';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/penna.woff')} 
+@font-face{font-family:'Ostrich_Sans_Bold';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/a0375b26-4759-43c2-94f2-3a94bd40c77a')} 
+@font-face{font-family:'Monoton';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/5a935b50-14d3-4a91-a9f7-5d8177e5575a')} 
+@font-face{font-family:'MadisonSquare';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/MADISI__.woff')} 
+@font-face{font-family:'Londrina_Shadow';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/125b0a74-c63e-46df-9c35-14bfc2440223')} 
+@font-face{font-family:'LeviReBrushed';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/d968ad32-b341-4f42-9bf0-d42284d6fef0')} 
+@font-face{font-family:'LemonChicken';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/LEMONCHI.woff')} 
+@font-face{font-family:'KelmscottRoman';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/KELMSCOT.woff')} 
+@font-face{font-family:'Josefin_Sans';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/aecf2b14-392e-4606-a5d2-c2892f86c6c2')} 
+@font-face{font-family:'Helvetica_Narrow';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/7286ddd1-2352-4fe9-85bb-6cafac189d03')} 
+@font-face{font-family:'Hanken_Light';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/60dc9237-ec6f-403e-b06f-0f54ce1b7810')} 
+@font-face{font-family:'Holy-Ravioli';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/HOLY-RAV.woff')} 
+@font-face{font-family:'Glamor_Light';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/b6a117a2-4910-475e-b469-6e2d76a323c6')} 
+@font-face{font-family:'FFAD_Matro';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/643a50de-a3a3-4652-ab48-ec1c0fd67b3a')} 
+@font-face{font-family:'FontleroyBrown';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/FontleroyBrown.woff')} 
+@font-face{font-family:'FancyPants';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/FancyPants.woff')} 
+@font-face{font-family:'Edo SZ';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/98260dee-d9fd-4900-baa9-eddd68b6bb8d')} 
+@font-face{font-family:'Economica';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/514c87d4-c643-4f42-8348-0974e03cbecf')} 
+@font-face{font-family:'Exacta';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Exacta-Light.woff')} 
+@font-face{font-family:'Didot';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/047c99dd-9a66-44c1-a333-864ef8158fdd')} 
+@font-face{font-family:'Debby';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/b045dc6e-b4a7-4f2a-960a-35e60f446e7f')} 
+@font-face{font-family:'DymaxionScript';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/DymaxionScript.woff')} 
+@font-face{font-family:'Caviar Dreams';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/CaviarDreams.woff')} 
+@font-face{font-family:'Big Foot';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/big_foot.woff')} 
+@font-face{font-family:'Aaargh';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aaargh.woff')} 
+@font-face{font-family:'Vaguely Fatal';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Vaguely+Fatal.woff')} 
+@font-face{font-family:'Unica';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Unica.woff')} 
+@font-face{font-family:'Myanmar Sangam MN';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Myanmar+Sangam+MN.woff')} 
+@font-face{font-family:'IM FELL Double Pica';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Imfelldoublepica-Regular.woff')} 
+@font-face{font-family:'GlaserSteD';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Glasersted-Regular.woff')} 
+@font-face{font-family:'GingerPeachy';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Gingerpeachy.woff')} 
+@font-face{font-family:'Graduate';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Graduate-Regular.woff')} 
+@font-face{font-family:'Elegante';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Elegante-Regular.woff')} 
+@font-face{font-family:'DroidSerif';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Droidserif-Regular.woff')}
+@font-face{font-family:'CabinSketch';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/cabinsketch-bold.woff')} 
+@font-face{font-family:'Codystar';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/8489e68b-e96d-4174-9b5d-1e6652559b4b')} 
+@font-face{font-family:'Carter_One';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/154223f3-4532-4794-8728-e20c88ed68c7')} 
+@font-face{font-family:'Cinzel-Bold';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Cinzel-Bold.woff')}
+@font-face{font-family:'Comic Sans MS';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/comic+sans+ms.woff')}
+@font-face{font-family:'BradleyHandITCTT-Bold';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Bradleyhand-Bold.woff')} 
+@font-face{font-family:'Brice';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/6e4fc1ea-0e8d-42d1-979c-2fdf8e614be4')} 
+@font-face{font-family:'Breathe_Press';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/3c04d30a-f86b-497e-91fd-2dcc0a70e1d5')} 
+@font-face{font-family:'Benthem';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/ff120efd-8cec-4c9b-994c-e36b081f3f75')} 
+@font-face{font-family:'Black Ops One';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Blackopsone-Regular.woff')} 
+@font-face{font-family:'Abril Fatface';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/AbrilFatface-Regular.woff')}
+@font-face{font-family:'Alegreya SC';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Alegreya-Regular.woff')} 
+@font-face{font-family:'Allura';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Allura-Regular.woff')}
+@font-face{font-family:'Anton';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/df41aa9c-49d0-4c62-9d59-d4fa3b1eb21b')}
+@font-face{font-family:'Ailerons';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/eb2986c4-8504-4075-80a3-40bb5bcc8927')} 
+@font-face{font-family:'QisiAria Slab';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Aria+Slab.woff')} 
+@font-face{font-family:'Arial Rounded MT Bold';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Arial+Rounded+Bold.woff')} 
+@font-face{font-family:'Aileron_Light';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/07/14/b18c5d77-d9a5-443d-bf7e-9679f2807ed1')} 
+@font-face{font-family:'Arvo';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/Arvo-Regular.woff')} 
+@font-face{font-family:'Microsoft YaHei';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91.woff')} 
+@font-face{font-family:'FZWeiBei-S03S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E9%AD%8F%E7%A2%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZCaiYun-M09S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%BD%A9%E4%BA%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZLiShu-S01S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E9%9A%B6%E4%B9%A6%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZXiaoBiaoSong-B05S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%B0%8F%E6%A0%87%E5%AE%8B%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZYaoTi-M06S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%A7%9A%E4%BD%93%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZChaoCuHei-M10S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E8%B6%85%E7%B2%97%E9%BB%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZSongHei-B07S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%AE%8B%E9%BB%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZXingKai-S04S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E8%A1%8C%E6%A5%B7%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZSongYi-Z13S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%AE%8B%E4%B8%80%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZShuTi-S05S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E8%88%92%E4%BD%93%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZMeiHei-M07S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E7%BE%8E%E9%BB%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZDaHei-B02S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%A4%A7%E9%BB%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZXiHeiI-Z08S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E7%BB%86%E9%BB%91%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZZhongDengXian-Z07S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E4%B8%AD%E7%AD%89%E7%BA%BF%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZZongYi-M05S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E7%BB%BC%E8%89%BA%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'FZJianZhi-M23S';src:url('//pub.cdn.oss.chuangkit.com/fonts/2016/08/23/%E6%96%B9%E6%AD%A3%E5%89%AA%E7%BA%B8%E7%AE%80%E4%BD%93.woff')} 
+@font-face{font-family:'Alzheimer';src:url('//pub.cdn.oss.chuangkit.com/fonts/2017/09/19/07448f7a-5235-4520-9c5d-ef2a6ee62cf5')}

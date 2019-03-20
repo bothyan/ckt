@@ -1,0 +1,179 @@
+.sign-page {
+  width: 100%;
+  height: 100%;
+}
+
+.ckt-logo {
+  position: relative;
+  margin-top: -12px;
+  margin-bottom: 18px;
+}
+
+.use-thirdparty-tips {
+  position: relative;
+  margin-bottom: 40px;
+  color: #CDCDCD;
+}
+
+.thirdparty-container {
+
+  .thirdparty-icon {
+    position: relative;
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-right: 64px;
+    }
+    &:after {
+      position: absolute;
+      bottom: -36px;
+      left: 18px;
+      color: #626262;
+      font-size: 18px;
+    }
+  }
+  .qq-icon {
+    background-image: url("./img/logreg_qq_default.svg");
+    &:after {
+      content: "QQ";
+    }
+    &:hover {
+      background-image: url("./img/logreg_qq_hover.svg");
+    }
+  }
+  .weixin-icon {
+    background-image: url("./img/logreg_weixin_default.svg");
+    &:after {
+      content: "微信";
+    }
+    &:hover {
+      background-image: url("./img/logreg_weixin_hover.svg");
+    }
+  }
+  .weibo-icon {
+    background-image: url("./img/logreg_weibo_default.svg");
+    &:after {
+      content: "微博";
+    }
+    &:hover {
+      background-image: url("./img/logreg_weibo_hover.svg");
+    }
+  }
+}
+
+.use-default-way {
+  color: #626262;
+  margin-top: 46px;
+  margin-bottom: 16px;
+}
+
+.to-login {
+  margin-top: 24px;
+  color: #9B9B9B;
+  span {
+    color: #07AEFC;
+    cursor: pointer;
+  }
+}
+
+.input {
+  .vcode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 11.4%;
+    .text {
+      text-align: center;
+      height: 11.4%;
+      float: left;
+      background-color: #FBFBFB;
+
+      span {
+        line-height: 40px;
+        color: #CDCDCD;
+        font-size: 14px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .img {
+      float: left;
+      overflow: hidden;
+
+      img {
+        width: 99px;
+        height: 39px;
+        border: none;
+      }
+    }
+  }
+}
+
+.log-in-button {
+  margin: 7% 0 5%;
+  button {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #cdcdcd;
+    background-color: #f3f3f3;
+    border: 1px solid #e8e8e8;
+  }
+}
+
+.reg-text {
+  color: #CDCDCD;
+  span {
+    color: #07AEFC;
+    cursor: pointer;
+  }
+}
+
+.btnActived {
+  button {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #07AEFC;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.forget-line {
+  text-align: left;
+  .forget {
+    color: #cdcdcd;
+    font-size: 14px;
+
+    .question-mark {
+      width: 16px;
+      height: 16px;
+      background-position: -26px -10px;
+      position: relative;
+      top: 3px;
+      left: 8px;
+    }
+    &:hover {
+      cursor: pointer;
+      span {
+        color: #07AEFC;
+      }
+      .question-mark {
+        background-position: -26px -26px;
+      }
+    }
+  }
+}
+
+.sprite {
+  display: inline-block;
+  background: url("./sprite.svg");
+}

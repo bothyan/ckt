@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.528609954%" y1="57.5424465%" x2="100%" y2="55.4776634%" id="linearGradient-1">
+            <stop stop-color="#7AFFB2" offset="0%"></stop>
+            <stop stop-color="#B1FF6C" offset="0%"></stop>
+            <stop stop-color="#7AFFB2" offset="32.9281945%"></stop>
+            <stop stop-color="#45ECF8" offset="65.9546199%"></stop>
+            <stop stop-color="#52B4FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-3945.000000, -4783.000000)">
+            <g id="Group-9" transform="translate(3945.000000, 4687.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="0" y="96" width="72" height="72" rx="4"></rect>
+                    <g id="Group-5" transform="translate(8.000000, 109.000000)">
+                        <rect id="Rectangle-31-Copy-3" fill="#BFBFBF" x="0" y="46" width="56" height="1"></rect>
+                        <polyline id="Path-17" stroke="url(#linearGradient-1)" stroke-width="2" points="8 33 21.5 11.5 35.5 21.75 49.5 4"></polyline>
+                        <circle id="Oval-10" stroke="#21E674" stroke-width="2" fill="#7AFFB2" cx="21" cy="11" r="4"></circle>
+                        <circle id="Oval-10-Copy-3" stroke="#69DB05" stroke-width="2" fill="#B1FF6C" cx="7" cy="33" r="4"></circle>
+                        <circle id="Oval-10-Copy" stroke="#00C4D3" stroke-width="2" fill="#45ECF8" cx="35" cy="21" r="4"></circle>
+                        <circle id="Oval-10-Copy-2" stroke="#037CD9" stroke-width="2" fill="#52B4FF" cx="49" cy="4" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

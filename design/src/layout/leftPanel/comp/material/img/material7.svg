@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C4FFFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.4264756%" y1="13.2871752%" x2="89.5812833%" y2="86.8642956%" id="linearGradient-2">
+            <stop stop-color="#06CCCB" offset="0%"></stop>
+            <stop stop-color="#0078A3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计中心-图案" transform="translate(-84.000000, -343.000000)">
+            <g id="侧边内容">
+                <g id="Group-19" transform="translate(80.000000, 130.000000)">
+                    <g id="Group-12" transform="translate(4.000000, 213.000000)">
+                        <rect id="Rectangle-Copy-18" fill="#57DFAA" x="0" y="0" width="64" height="64"></rect>
+                        <g id="Group-6" transform="translate(30.286788, 34.590424) rotate(35.000000) translate(-30.286788, -34.590424) translate(13.286788, 10.090424)">
+                            <polygon id="Rectangle-14" fill="url(#linearGradient-1)" points="15 24 19 24 18 46.6415094 17 49 16 46.6415094"></polygon>
+                            <path d="M11.3617835,19.4593233 C4.9964073,20.2520126 0.448275862,22.3486005 0.448275862,24.8103448 C0.448275862,27.9526546 7.85873518,30.5 17,30.5 C26.1412648,30.5 33.5517241,27.9526546 33.5517241,24.8103448 C33.5517241,22.3486005 29.0035927,20.2520126 22.6382165,19.4593233 L21.4665224,9.49992331 C26.1155939,8.82738063 29.4137931,7.13571446 29.4137931,5.15517241 C29.4137931,2.58419168 23.8559486,0.5 17,0.5 C10.1440514,0.5 4.5862069,2.58419168 4.5862069,5.15517241 C4.5862069,7.13571446 7.88440609,8.82738063 12.5334776,9.49992331 L11.3617835,19.4593233 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

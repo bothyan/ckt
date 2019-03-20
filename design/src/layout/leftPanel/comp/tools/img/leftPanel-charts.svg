@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.7917318%" y1="0%" x2="82.1125156%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F1FEFF" offset="0%"></stop>
+            <stop stop-color="#CEFFFE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.82951167%" y1="2.74433992%" x2="102.224226%" y2="99.1471522%" id="linearGradient-2">
+            <stop stop-color="#00AFD5" offset="0%"></stop>
+            <stop stop-color="#0089AE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计中心-图案-copy" transform="translate(-180.000000, -78.000000)">
+            <g id="Group-13-Copy-3" transform="translate(180.000000, 78.000000)">
+                <rect id="Rectangle-Copy-14" fill="#2DDAB9" x="0" y="0" width="64" height="64"></rect>
+                <polygon id="Path-5" fill="#D3FDFF" fill-rule="nonzero" points="15.5308373 20.6757854 15 21.5078383 32.5466698 32 50 11.6242718 49.2224134 11 32.3299555 30.7209431"></polygon>
+                <circle id="Oval-5-Copy" fill="url(#linearGradient-1)" cx="32" cy="31" r="3"></circle>
+                <circle id="Oval-5-Copy-2" fill="url(#linearGradient-1)" cx="49" cy="11" r="3"></circle>
+                <rect id="Rectangle-7" fill="url(#linearGradient-2)" x="10" y="46" width="10" height="10"></rect>
+                <rect id="Rectangle-7-Copy-3" fill="url(#linearGradient-2)" x="27" y="37" width="10" height="19"></rect>
+                <rect id="Rectangle-7-Copy-4" fill="url(#linearGradient-2)" x="44" y="23" width="10" height="33"></rect>
+                <circle id="Oval-5" fill="url(#linearGradient-1)" cx="15" cy="21" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

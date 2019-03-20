@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.8630728%" y1="2.67032766%" x2="71.7984756%" y2="91.0885015%" id="linearGradient-1">
+            <stop stop-color="#10D660" offset="0%"></stop>
+            <stop stop-color="#00A673" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="31.0177444%" y1="11.399834%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#ECFFE7" offset="0%"></stop>
+            <stop stop-color="#A7FF89" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="就看这个别的不用看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计中心-图案" transform="translate(-180.000000, -239.000000)">
+            <g id="侧边内容">
+                <g id="Group-19" transform="translate(80.000000, 130.000000)">
+                    <g id="Group-14" transform="translate(100.000000, 109.000000)">
+                        <rect id="Rectangle-Copy-13" fill="#67DD85" x="0" y="0" width="64" height="64"></rect>
+                        <circle id="Oval-4" fill="url(#linearGradient-1)" cx="38.5" cy="37.7314649" r="17.5"></circle>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-2)" points="24.3451817 8.72176658 38.524456 33.1687912 10.1659075 33.1687912"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

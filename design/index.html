@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>创客贴 - 制作 - 设计页</title>
+    <link rel="stylesheet" href="/dist/style.css">
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="/dll/dll.js"></script>
+    <script src="/dist/build.js"></script>
+    <script>
+        window.material_id_index = 0;
+        var getQueryString = function(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+
+            if (r != null) return decodeURIComponent(r[2]);
+            return null;
+        }
+
+        var reptile = getQueryString('reptile') || 0;
+    </script>
+    <script type='text/javascript'>
+        var _vds = _vds || [];
+        window._vds = _vds;
+        (function() {
+            _vds.push(['setAccountId', '8c9191eb6b6b4d07']);
+            (function() {
+                var vds = document.createElement('script');
+                vds.type = 'text/javascript';
+                vds.async = true;
+                vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+                var s = document.getElementsByTagName('script')[0];
+                if (!reptile)
+                    s.parentNode.insertBefore(vds, s);
+            })();
+        })();
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?5344b558457018b9f67f8372a8214151";
+            var s = document.getElementsByTagName("script")[0];
+            if (!reptile)
+                s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        //公共部分代码， 以下代码在整个页面只需要安装一次即可
+        (function(d, s, id) {
+            var n = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            s = d.createElement(s);
+            s.id = id;
+            s.setAttribute('charset', 'utf-8');
+            s.src = '//dmp.sina.com.cn/fyr.js';
+            //wap 网站请将上一行dmp.sina.com.cn/fyr.js 更替为dmp.sina.cn/wap_fyr.js
+            if (!reptile)
+                n.parentNode.insertBefore(s, n);
+        })(document, 'script', 'fyr-script');
+        _fyr = window._fyr || [];
+        _fyr.push(['_setAccount', 'n13123']);
+    </script>
+    <script>
+        //调用
+        _fyr.push(['_visit', '1_1']);
+    </script>
+    <script src='//kefu.easemob.com/webim/easemob.js?tenantId=20671&hide=false&sat=false' async='async'></script>
+    <a href='javascript:;' onclick='easemobim.bind({tenantId: 20671})' class="customerServiceBtn"><span class="customerServiceIconBack"><span class="customerServiceIcon"></span></span><span class="customerServiceText">客服</span></a>
+    <script>
+        window.easemobim = window.easemobim || {};
+        easemobim.config = {
+            hide: true, //是否隐藏小的悬浮按钮
+            autoConnect: true //自动连接
+        };
+    </script>
+</body>
+
+</html>
+<style>
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+</style>
+
+
+
+
+
+
+<style lang="scss">
+    @import './poidetail.scss';
+    .foldtextItem {
+        width: 580rpx
+    }
+    
+    .arrowdown {
+        width: 100rpx !important;
+        height: 40rpx !important;
+        right: -42rpx !important;
+        top: -2rpx !important;
+    }
+</style>
+<template>
+    <view class="container df">
+      <!-- 头部banner与名字 -->
+      <view class="banner">
+        <image src="{{cover}}"/>
+        <view class="picNum">{{type}}</view>
+      </view>
+      <view class="head df">
+        <view class="flex">
+            <view class="title" wx:if="{{name}}">{{name}}</view>
+        </view>
+        <view class="subTitle" wx:if="{{nameEN}}">{{nameEN}}</view>
+        <view class="gradeBox df" @tap="goToCommentList('1')">
+        <view class="pr starList">
+          <starlist class="pr starstyle" score="{{score}}"></starlist>
+        </view>
+        <view class="gradeText flex" wx:if="{{score!=0}}">
+          <view class="lights" style="color:#f5c06a">{{score}}</view>
+          <view class="detail-color"> 分</view>
+          <view wx:if="{{commentCount!=0}}" class="df">
+            <view class="detail-color">/{{commentCount}}条点评</view>
+            <view style="margin-left:14rpx;transform:scale(.7);"><i class="icon icon-arrow-right"></i></view>
+          </view>
+        
+        </view>
+      </view>
+        <!-- 评价标签 -->
+        <view class="commentTagBox df" wx:if="{{label.length>0}}">
+          <view class="{{item.status==0?'badtag':'ctag'}} {{item.chose?'chosed':''}}" style="display:flex;" wx:for="{{poiCommentLabels}}" @tap="clickCommentLabel({{item}},{{index}})">
+            <text style="margin:0 auto;">
+                <text>{{item.name}}</text>
+                <text class="label-number">{{item.number}}</text>
+            </text>
+          </view>
+        </view>
+        <!-- 荣誉 -->
+        <view class="honorList df" wx:if="{{honor.length>0}}">
+          <view class="honer df" wx:for="{{honor}}" @tap="goToThemPage({{item}})"><view class="honorIcon"></view>{{item.name}}</view>
+        </view>
+      </view>
+      <view style="margin-top:20rpx;">
+             <!-- 模板分类 -->
+        <view wx:if="{{type==1&&intro}}">
+          <view class="pr oh desc-wrap">
+            <view class="oh {{isFold?'extend':'intro'}}">{{intro}}</view>
+            <view class="pa show-more" @tap="flodFn" wx:if="{{show}}">{{'更多简介'}}</view>
+          </view>
+        </view>
+            <!-- 美食林模板 -->
+        <view wx:if="{{type==8&&reason&&reason.reason}}">
+          <view class="mei-desc-wrap">
+              <text class="quto">“</text>
+             <text>{{reason.reason}}</text>
+             <text class="quto bottom-quto">”</text>
+               <view class="flex">
+                <view class="avatar">
+                  <image src="{{meiAvatar.avatar}}"/>
+                </view>
+                <view class="m10">
+                  <view class="mei-name">{{meiName.name}}</view>
+                  <view class="mei-intro">{{meiIntro.intro}}</view>
+                </view>
+              </view>
+          </view>
+        </view>
+      </view>
+       <view wx:if="{{(type==4||type==8)&&dish&&dish.length>0}}" style="margin-top:96rpx;">
+         <view class="hotel">推荐美食</view>
+         <view class="pr oh desc-wrap" style="background:#fff;">
+            <view class="oh {{isFold?'extend':'intro'}}">{{dishNameList}}</view>
+            <view class="pa show-more maskWhite" @tap="flodFn" wx:if="{{show}}">{{'展开全部'}}</view>
+          </view>
+        <!-- <view>
+          <view class="{{isFold?'extend':'intro'}} desc-wrap" style="background:#fff;">
+             <text>{{dishNameList}}</text>
+            <text class="show-more" @tap="flodFn" wx:if="{{show}}">{{'更多简介'}}</text>
+          </view>
+        </view> -->
+        <view class="scroll-box">
+              <scroll-view  scroll-x>
+                <view wx:for="{{dish}}" class="hot-item" >
+                  <image src="{{item.cover}}"/>
+                  <view class="dish-name">{{item.name}}</view>
+                </view>
+            </scroll-view>
+        </view>
+      
+       </view>
+      <view class="infoView">
+      <!-- 游玩标签 -->
+        <view class="infoList">
+           <view class="item" wx:if="{{address}}">
+            <text class="label hd">地址</text>
+            <view class="right">
+              <view class="address">{{address}}</view>
+              <view class="map" catchtap="showMap">地图</view>
+            </view>
+         
+          </view>
+           <view class="item" wx:if="{{playTime}}">
+            <view class="label">游玩</view>
+            <view class="right">
+              <foldtext arrowdown-class="arrowdown" class="foldtextItem" text="{{playTime}}" textWidth="520rpx" maxLine="{{1}}"></foldtext>
+            </view>
+          </view>
+           <view class="item" wx:if="{{openTime}}">
+            <view class="label">开放</view>
+            <view class="right">
+              <foldtext arrowdown-class="arrowdown" class="foldtextItem" textWidth="520rpx" text="{{openTime}}" maxLine="{{1}}"></foldtext>
+            </view>
+          </view>
+           <view class="item" wx:if="{{traffic}}">
+            <view class="label">交通</view>
+            <view class="right">
+              <foldtext arrowdown-class="arrowdown" class="foldtextItem" textWidth="520rpx" text="{{traffic}}" maxLine="{{1}}"></foldtext>
+            </view>
+          </view>
+          <view class="item" wx:if="{{ticketInfo}}">
+            <view class="label">门票</view>
+            <view class="right">
+              <foldtext arrowdown-class="arrowdown" class="foldtextItem" textWidth="520rpx" text="{{ticketInfo}}" maxLine="{{1}}"></foldtext>
+            </view>
+          </view>
+              <view class="item" wx:if="{{specialTips}}">
+            <view class="label">提示</view>
+            <view class="right">
+              <foldtext arrowdown-class="arrowdown" class="foldtextItem" textWidth="520rpx" text="{{specialTips}}" maxLine="{{1}}"></foldtext>
+            </view>
+          </view>
+        </view>
+        <!-- 酒店特有模板-->
+        <view wx:if="{{type==6&&hotelService.length>0}}" style="padding-left:40rpx;margin-top:60rpx;">
+            <view class="hotel" wx:if="{{hotelService!=0}}">酒店设施</view>
+            <view style="display:flex;flex-wrap:wrap; font-size:24rpx; color:rgb(102,102,102);">
+                 <text wx:for="{{hotelService}}" class="label-wrap">
+                  <text wx:for="{{item.texts}}" wx:for-item="itemName" style="{{itemName.style}}">{{itemName.str}}</text>
+                </text>
+            </view>
+           
+        </view>
+      </view>
+      <!-- 评论列表区域 -->
+      <view class="comment" wx:if="{{commentCount!=0&&commentList.length>0}}">
+        <view class="title" @tap="goToCommentList('2')">
+          <view style="display:flex;">
+            <text class="user-coment">用户点评</text>
+            <text class="sub">({{commentCount}}条点评)</text>
+          </view>
+            <view><i class="icon icon-arrow-right"></i></view>
+        </view>
+        <view wx:for="{{commentList}}" wx:key="index">
+          <comment-cell fdata="{{item}}"></comment-cell>
+        </view>
+        <view class="more-comment" @tap="goToCommentList('3')">更多评论</view>
+      </view>
+      <!-- 查看周边 -->
+      <view class="around" wx:if="{{aroundArray.length}}">
+        <view class="see-around">查看周边</view>
+        <view class="city-nav df">
+        <view class="nav-item" wx:for="{{aroundArray}}"  @tap="turnTo({{item.type}})">
+          <view style="transform:scale(.8)">
+              <i class="icon icon-nav-sight" wx:if="{{item.type==1}}"></i>
+              <i class="icon icon-nav-restaurant" wx:elif="{{item.type==4}}"></i>
+              <i class="icon icon-nav-hotel" wx:elif="{{item.type==6}}"></i>
+              <i class="icon icon-nav-shopping" wx:elif="{{item.type==3}}"></i>
+              <i class="icon icon-nav-entertainment" wx:elif="{{item.type==2}}"></i>
+          </view>
+          <view style="position:relative;top:-20rpx;">{{item.name}}</view>
+        </view>
+      </view>
+      </view>
+      <view class="order">
+        <view class="bottom bottom-price" style="line-height:{{type==6?'38':'98'}}rpx">
+          <view wx:if="{{type==6}}" style="margin-top:10rpx;">
+               <view><text class="co" style="font-size:25rpx;">￥</text><text class="price co">{{price}}</text><text class="tip" style="margin-left:5px;">起</text></view>
+                <view class="tip" wx:if="{{price}}">仅供参考，请以实际预定价格为准</view>
+                <view class="tip" wx:elif="{{}}">请进入酒店详情修改入住日期后再试一试</view>
+                <view class="tip" wx:else>请进入酒店详情修改入住日期后再试一试</view>
+          </view>
+          <view wx:elif="{{type==1}}">
+            <view>
+              <text class="co" style="font-size:25rpx;">￥</text>
+              <text class="price co">348</text>
+            </view>
+          </view>
+          <!-- <view wx:else></view> -->
+            <view wx:else>
+              <text class="co" style="font-size:25rpx;">人均价格￥</text>
+              <text class="price co">348</text>
+              <text class="tip" style="margin-left:5px;">起</text>
+            </view>
+          </view>
+          <view class="bottom bottom-order" @tap="goOut">{{!price?'查看详情':'立即预定'}}<i class="icon icon-arrow-right"></i></view>
+        </view>
+        
+    </view>
+  </template>
+
+<script>
+    import wepy from 'wepy'
+    import {
+        SAVE_DETAIL_DATA,
+        SET_PARAMS,
+        STARTLOADING,
+        FOLD_COMMENT_CONTENT
+    } from '@/store/types/poiDetail'
+    import {
+        getStore,
+        connect
+    } from 'wepy-redux'
+    import trace from '@trace'
+    import PoiService from '@/services/PoiService'
+    import isEqual from 'lodash/isEqual'
+    import dialogMenu from '@/components/dialog-menu'
+    import cloneDeep from 'lodash/cloneDeep'
+    import Common from '@/common/common'
+    // import FoldText from '@/components/fold-text'
+    // import FoldTextNative from '@/components/foldtext/index'
+    const store = getStore()
+    let name = '';
+    let locationAddress = ''
+    let poiService = new PoiService();
+    let pageName = '';
+
+    function f1(state) {
+        return state.poiDetail.detailData
+    }
+    @connect({
+        cover(state) {
+            let detailData = state.poiDetail.detailData
+            return detailData && detailData.cover
+        },
+        intro(state) {
+            let data = f1(state)
+            return data && data.intro
+        },
+        reason(state) {
+            let data = f1(state)
+            return data && data.jury
+        },
+        price(state) {
+            let data = f1(state)
+            return data && data.price
+        },
+        meiIntro(state) {
+            let data = f1(state)
+            return data && data.jury
+        },
+        meiAvatar(state) {
+            let data = f1(state)
+            return data && data.jury
+        },
+        meiName(state) {
+            let data = f1(state)
+            return data && data.jury
+        },
+        name(state) {
+            let data = f1(state)
+            return data && data.name
+        },
+        nameEN(state) {
+            let data = f1(state)
+            return data && data.nameEN
+        },
+        address(state) {
+            let data = f1(state)
+            return data && data.address
+        },
+        dishNameList(state) {
+            let data = f1(state)
+            return data && data.dishNameList
+        },
+        dish(state) {
+            let data = f1(state)
+            return data && data.dish
+        },
+        commentList(state) {
+            let data = f1(state)
+            let commentList = (data && data.comment) || []
+            commentList = commentList.map((item, index) => {
+                let comment = Object.assign({}, item)
+                comment.fold = comment.content.length > 20
+                comment.index = index
+                return comment
+            })
+            return commentList
+        },
+        commentCount(state) {
+            let data = f1(state)
+            let count = data && data.commentCount
+            if (count > 10000) {
+                count = ((count / 1000) >> 0) / 10
+                count = count + '万'
+            }
+            return count
+        },
+    }, {
+        foldComment: FOLD_COMMENT_CONTENT
+    })
+
+    export default class PoiList extends wepy.page {
+        config = {
+            navigationBarTitleText: '',
+            usingComponents: {
+                'comment-cell': '/components/commentCell/index',
+                'foldtext': '/components/foldtext/index',
+                'starlist': '/components/starList/starList',
+            }
+        }
+        mixins = [trace]
+        traceConfig = {
+
+        }
+        components = {
+            dialogMenu: dialogMenu,
+        }
+
+        data = {
+            menuOpen: false,
+            menuDir: 'top',
+            params: {},
+            poiData: {},
+            cityId: '',
+            isFold: null,
+            show: null,
+            score: '',
+            label: null,
+            type: null,
+            traffic: '',
+            ticketInfo: '',
+            specialTips: '',
+            openTime: '',
+            playTime: '',
+            hotelService: [],
+            honor: [],
+            latitude: '',
+            longitude: '',
+            aroundArray: [],
+            poiCommentLabels: []
+        }
+        methods = {
+            showfilter() {
+                this.menuDir = 'top'
+                this.menuOpen = true
+            },
+            goOut() {
+                this.traceEv({
+                    label: 'Order'
+                })
+                wx.navigateToMiniProgram({
+                    appId: 'wx336dcaf6a1ecf632',
+                    path: 'page/hotel/pages/inland/detail/index?hotelid=32301002&indate=2018-07-11&outdate=2018-07-12',
+                    success(res) {
+                        // 打开成功
+                        console.log(res)
+                    }
+                })
+            },
+            clickCommentLabel(item, index) {
+                this.traceEv({
+                    label: 'CommentTag'
+                })
+                item.chose = !item.chose
+                if (item.chose) {
+                    this.choseArr[item.id] = item
+                } else {
+                    delete this.choseArr[item.id]
+                }
+                this.poiCommentLabels.splice(index, 1, item)
+                this.$apply()
+                this.$preload('labels', cloneDeep(this.poiCommentLabels))
+                this.$navigate('/pages/commentList/commentList', {
+                    id: this.params.id,
+                    type: this.params.type,
+                    labelId: item.id
+                })
+            },
+            turnTo(type) {
+                let aroundLabel = ''
+                switch (type) {
+                    case 1:
+                        aroundLabel = 'AroundSight'
+                        break;
+                    case 4:
+                        aroundLabel = 'AroundRestaurant'
+                        break;
+                    case 6:
+                        aroundLabel = 'AroundHotel'
+                        break;
+                    case 3:
+                        aroundLabel = 'AroundShop'
+                        break;
+                    default:
+                        aroundLabel = 'AroundPlay'
+                }
+                this.$navigate({
+                    url: `../city/aroundThing?type=${type}&cityId=${this.cityId}&latitude=${this.latitude}&longitude=${this.longitude}`
+                })
+                this.traceEv({
+                    label: aroundLabel
+                })
+            },
+            goToThemPage(data) {
+                this.$navigate('/pages/theme/detail', {
+                    id: data.id
+                })
+                this.traceEv({
+                    label: 'Event',
+                    value: data.name
+                })
+            },
+            goToCommentList(data) {
+                let commentDotName = ''
+                if (data == 1) {
+                    commentDotName = 'CommentMoreUp'
+                } else if (data == 2) {
+                    commentDotName = 'CommentMore'
+                } else {
+                    commentDotName = 'CommentMoreDown'
+                }
+                this.traceEv({
+                    label: commentDotName
+                })
+                this.$preload('labels', cloneDeep(this.poiCommentLabels))
+                let state = store.getState()
+                if (state.poiDetail.detailData.commentCount == 0) {
+                    return;
+                }
+                this.$navigate('/pages/commentList/commentList', {
+                    id: this.params.id,
+                    type: this.params.type
+                })
+            },
+            showMap() {
+                var self = this
+                wx.getLocation({
+                    type: 'gcj02',
+                    success: function(res) {
+                        wx.openLocation({
+                            latitude: self.latitude,
+                            longitude: self.longitude,
+                            scale: 28, // 缩放比例
+                            name: name,
+                            address: locationAddress
+                        })
+                    },
+                    fail: function() {
+                        wx.showToast({
+                            title: '地图打开失败',
+                            duration: 1000,
+                            icon: 'cancel'
+                        })
+                    }
+                })
+                this.traceEv({
+                    label: 'Map'
+                })
+            },
+            flodFn() {
+                this.isFold = true
+                this.show = false
+            }
+        }
+        getTraceEvName(data) {
+            if (data.type == 1) {
+                pageName = 'SightPoiPage'
+            } else if (data.type == 4) {
+                pageName = 'RestaurantPoiPage'
+            } else if (data.type == 6) {
+                pageName = 'HotelPoiPage'
+            } else if (data.type == 3) {
+                pageName = 'ShopPoiPage'
+            } else {
+                pageName = 'PlayPoiPage'
+            }
+            this.traceConfig.pageName = pageName
+        }
+        onLoad(params) {
+            this.choseArr = [];
+            wx.showLoading({
+                title: '获取数据···'
+            })
+            this.getTraceEvName(params)
+            params = Object.assign({}, params)
+            params.id = Number.parseFloat(params.id)
+            params.type = (params.type || 1) >> 0
+            this.type = params.type
+            let state = store.getState()
+            this.params = params
+            store.dispatch({
+                type: STARTLOADING
+            })
+            store.dispatch({
+                type: SET_PARAMS,
+                payload: params
+            })
+            poiService.getPoi({
+                ...params
+            }).then((data) => {
+                let body = data.data.body;
+                // 关联数据
+                if (body.commentLabel == '') {
+                    body.commentLabel = [];
+                    console.log('数据类型错误了')
+                }
+                this.label = body.commentLabel && body.commentLabel.sort(Common.compare('number'))
+                this.poiCommentLabels = this.label && this.label.map((item) => {
+                    item.chose = false
+                    return item
+                })
+                this.traffic = body.traffic
+                this.ticketInfo = body.ticketInfo
+                this.specialTips = body.specialTips
+                this.openTime = body.openTime
+                this.playTime = body.playTime
+                this.poiname = body.name
+                this.honor = body.honor
+                this.latitude = body.latitude
+                this.longitude = body.longitude
+                this.cityId = body.cityId
+                name = body.name
+                locationAddress = body.address
+                wx.setNavigationBarTitle({
+                    title: `${this.poiname}`
+                });
+                // 关键字高亮
+                this.hotelService = body.hotelService && body.hotelService.map(function(item) {
+                    var name = item.name;
+                    var styleMap = {
+                        "免费": "color:#0BC071;",
+                        "收费": "color:#FF5555;"
+                    };
+                    name = name.replace(/免费|收费/g, str => `    ${str}    `).trim().split("    ")
+                    item.texts = name.map(str => ({
+                        str: str,
+                        style: styleMap[str] || ""
+                    }));
+                    return item
+                })
+                this.score = body.score;
+                if (body.intro && body.intro.length >= 100) {
+                    this.isFold = false
+                    this.show = true
+                } else {
+                    this.isFold = true
+                    this.show = false
+                }
+                this.getAroundPoiIcon(params)
+                store.dispatch({
+                    type: SAVE_DETAIL_DATA,
+                    payload: {
+                        body
+                    }
+                })
+                this.$nextTick().then(() => {})
+                wx.hideLoading()
+                    //添加浏览历史
+                this.addHistory({
+                    id: params.id + '',
+                    type: 'poi',
+                    type1Id: params.type + '',
+                    name: name
+                })
+                this.traceEv({
+                    label: this.traceConfig.pageName,
+                    value: this.poiname
+                })
+            }).catch(err => {
+                console.log(err)
+            })
+
+        }
+        onShow() {
+            if (this.poiCommentLabels) {
+                this.poiCommentLabels.map(item => {
+                    item.chose = false
+                    return item
+                })
+            }
+        }
+        addHistory(obj) {
+            try {
+                let value = wx.getStorageSync('scanHistory');
+                if (value == '') {
+                    value = [];
+                }
+                //去重
+                for (let i = 0; i < value.length; i++) {
+                    let element = value[i];
+                    if (obj.id == element.id && obj.type == element.type) {
+                        value.splice(i, 1);
+                    }
+                }
+                //限量
+                if (value.length == 8) {
+                    value.splice(0, 1);
+                }
+
+                value.push(obj);
+
+                try {
+                    wx.setStorageSync('scanHistory', value);
+                } catch (e) {
+                    console.error('存储失败');
+                }
+            } catch (e) {
+                console.error('获取失败');
+            }
+        }
+        getAroundPoiIcon(data) {
+                poiService.getAroundPoiIcon({
+                    id: data.id
+                }).then(data => {
+                    this.aroundArray = data.data.body
+                    this.$apply()
+                }).catch(err => {
+                    console.log(err)
+                })
+            },
+            getAsyncComment(data) {
+                console.log(data)
+                poiService.getAsyncComment({
+                    id: data.id
+                }).then(data => {
+                    this.$apply()
+                }).catch(err => {
+                    console.log(err)
+                })
+            }
+    }
+</script>
+
+
+
+
+
+<el-table :data="tableData" v-loading="loading" border style="width: 100%">
+    <el-table-column prop="storyId" label="故事ID">
+    </el-table-column>
+            <el-table-column prop="content" label="故事正文">
+              <template slot-scope="scope">
+                <p class="c3">{{scope.row.content}}</p>
+              </template>
+          </el-table-column>
+          <el-table-column prop="author" label="类型">
+            <template slot-scope="scope">
+              <p v-if="scope.row.imageList">图片({{scope.row.imageList.length}})</p>
+            </template>
+          </el-table-column>
+          <el-table-column label="图片">
+            <template slot-scope="scope">
+              <div style="display:flex;">
+                <a class="image-wrapper" v-for="(i,index) in scope.row.imageList" :key="index" @click="showAllPic(scope.row.imageList)">
+                  <img width="80" :src="i.thumbUrl">
+                </a>
+              </div>
+             
+            </template>
+          </el-table-column>
+          <el-table-column label="视频">
+             <template scope="scope">
+                <video v-if="scope.row.video" class="video" controls :src="scope.row.video">
+                  <!-- <source :src="scope.row.video" type="video/mp4"> -->
+                </video>
+              </template>
+          </el-table-column>
+          <el-table-column prop="author" label="作者昵称">
+            <template slot-scope="scope">
+              <p>{{scope.row.author}}</p>
+              <p><button v-if="scope.row.isisForbidden">已禁言</button></p>
+            </template>
+          </el-table-column>
+            <el-table-column prop="verifyUser" label="审核人">
+          </el-table-column>
+          <el-table-column prop="createTime" label="发布时间">
+      
+          </el-table-column>
+            <el-table-column prop="source" label="审核时间">
+      
+            </el-table-column>
+            <el-table-column prop="audio" label="操作">
+            <template slot-scope="scope">
+              <div v-if="form.status=='通过'||form.status=='推荐'">
+                <el-button type="primary" size="mini">查看</el-button>
+                          <el-button type="primary" size="mini">管理</el-button>
+              </div>
+              <div v-else-if="form.status=='不通过'">
+                 <el-button type="primary" size="mini">管理</el-button>
+              </div>
+              <div v-else>
+                <el-radio-group v-model="action">
+                    <el-radio  :label="2">通过</el-radio>
+                    <el-radio  :label="3">推荐</el-radio>
+                    <el-radio  :label="4">不通过</el-radio>
+                </el-radio-group>
+              </div>
+            </template>
+          </el-table-column>
+    </el-table>

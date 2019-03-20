@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="16px" viewBox="0 0 41 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>新活动标记 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新活动标记-copy">
+            <g id="new1">
+                <g id="Rectangle-12">
+                    <g id="path-1-link" fill="#FFFFFF">
+                        <path d="M0,8 C0,3.581722 3.58463172,0 8.00254308,0 L32.9974569,0 C37.4171394,0 41,3.59071231 41,8 L41,8 C41,12.418278 37.4153683,16 32.9974569,16 L0,16 L0,8 Z" id="path-1"></path>
+                    </g>
+                    <path d="M0.5,15.5 L32.9974569,15.5 C37.1398903,15.5 40.5,12.1414715 40.5,8 C40.5,3.86369842 37.1378422,0.5 32.9974569,0.5 L8.00254308,0.5 C3.86010972,0.5 0.5,3.85852849 0.5,8 L0.5,15.5 Z" id="Shape" stroke="#07AEFC"></path>
+                </g>
+            </g>
+            <text id="Beta" fill="#07AEFC" font-family="NotoSansHans-Regular, Noto Sans S Chinese" font-size="12" font-weight="normal">
+                <tspan x="8" y="13">Beta</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

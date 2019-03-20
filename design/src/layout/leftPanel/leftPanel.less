@@ -1,0 +1,170 @@
+#leftPanel{
+  height: 100%;
+  min-width: 54px;
+  max-width: 366px;
+  position: relative;
+  float: left;
+  box-shadow: 0 0 10px #b3b3b3;
+
+  .upload-qrcode{
+    width: 660px;
+    height: 478px;
+    background: #fff;
+    border-radius: 3px;
+    padding: 1px 0 1px 0;
+    position: relative;
+    text-align: center;
+    //box-shadow: ;
+
+    .upload-qrcode-qr{
+      width: 166px;
+      height: 166px;
+      margin: 104px auto 0 auto;
+    }
+
+    &>p{
+      //display: inline-block;
+      color: #515151;
+      font-size: 18px;
+      line-height: 18px;
+      margin: 67px 0 0 0;
+      &:nth-child(3){
+        margin: 10px 0 98px 0;
+        font-size: 12px;
+        line-height: 12px;
+      }
+    }
+  }
+
+  .leftPanels{
+    height: 100%;
+    min-width: 54px;
+    max-width: 366px;
+    position: relative;
+    //top:0;
+    //left:0;
+    transition: left .2s ease;
+    z-index: 2;
+
+    #leftPanel-leftPanelMenu{
+      height: 100%;
+      width: 54px;
+      background-color: #FFF;
+      float: left;
+      overflow: visible;
+      position: relative;
+      z-index: 1002;
+      box-shadow: 0 0 8px 0 rgba(0,0,0,.16);
+      padding-top: 50px;
+
+      .leftPanel-leftPanelMenuList{
+        width: 54px;
+        height: 65px;
+        background-color: #ffffff;
+        cursor: pointer;
+        float: left;
+        position: relative;
+
+        &[class~='disable']{
+          cursor: not-allowed;
+          background-color: #ffffff !important;
+
+          .leftPanel-leftPanelMenuList-text{
+            color: #8f8f8f !important;
+          }
+        }
+
+        .leftPanel-leftPanelMenuList-image{
+          height: 24px;
+          width: 24px;
+          display: block;
+          margin-left: 15px;
+          margin-top: 10px;
+          position: absolute;
+        }
+
+        .leftPanel-leftPanelMenuList-text{
+          font-size: 14px;
+          width: 54px;
+          text-align: center;
+          position: absolute;
+          bottom: 10px;
+          color: #8f8f8f;
+        }
+
+        &:hover,&[class~='active']{
+          background-color: #ebebeb;
+
+          .leftPanel-leftPanelMenuList-text{
+            color: #07aefc;
+          }
+        }
+      }
+
+    }
+
+    #leftPanel-mainContent{
+      height: 100%;
+      position: relative;
+      float: left;
+      width: 312px;
+      //overflow: hidden;
+      box-shadow: 0 0 4px 0 rgba(0,0,0,.16);
+      background-color: #F7F7F7;
+      transition: width .3s;
+
+      .leftPanel-mainContent-toggle{
+        position: absolute;
+        right: -6px;
+        width: 35px;
+        height: 77px;
+        background: url("./img/toggleBG.svg") no-repeat;
+        top:50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: right .1s linear;
+
+        &:hover{
+          right:-18px;
+        }
+
+        &:after{
+          content: '';
+          display: block;
+          position: absolute;
+          top:33px;
+          right:6px;
+          background: url(./img/toggleIcon.svg) no-repeat;
+          width: 6px;
+          height: 11px;
+          transition: transform .3s ease;
+        }
+
+        &[class~='close']{
+          &:after{
+            transform: rotate(180deg);
+          }
+        }
+
+        &[class~='disable']:hover{
+          right: -6px;
+        }
+      }
+
+      &[class~='close']{
+        width: 0;
+        cursor: default;
+      }
+    }
+  }
+
+  .leftPanels-shadow{
+    height: 100%;
+    width:312px;
+    position: absolute;
+    top:0;
+    left:54px;
+    z-index: 1;
+  }
+
+}

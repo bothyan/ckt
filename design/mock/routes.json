@@ -1,0 +1,12 @@
+{
+  "/user/getUserInfo": "/getUserInfo",
+  "/user/regWithPhone": "/regWithPhone",
+  "/design/makeDesignIdV2": "/makeDesignIdV2",
+  "/home/getDesignType": "/getDesignType",
+  "/design/queryUserDesigns": "/queryUserDesigns",
+  "/design/moveDesign": "/moveDesign",
+  "/activity/list": "/list",
+  "/activity/publishWork": "/publishWork",
+  "/design/addMakeImageTask": "/addMakeImageTask",
+  "/design/queryUserFolders": "/queryUserFolders"
+}

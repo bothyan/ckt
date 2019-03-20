@@ -1,0 +1,828 @@
+[
+    {
+        "width": 2900.0,
+        "height": 2500.0,
+        "elems": [
+            {
+                "data-type": "background",
+                "data-elem": {
+                    "filter": {
+                        "brightness": 0,
+                        "contrast": 0,
+                        "crossProcess": 0,
+                        "gaussianBlur": 0,
+                        "saturation": 0,
+                        "tint": 0
+                    },
+                    "id": "292747",
+                    "data-key": "2016/03/28/659472",
+                    "width": 3826.771875,
+                    "height": 2551.18125,
+                    "opacity": 1,
+                    "lock": "true"
+                },
+                "data-img-kind": "image/jpg",
+                "transform": "translate(-124.01570921435518,0)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "img",
+                "data-elem": {
+                    "filter": {
+                        "brightness": 100,
+                        "contrast": 4,
+                        "crossProcess": 78,
+                        "gaussianBlur": -5,
+                        "saturation": 20,
+                        "tint": 70
+                    },
+                    "id": "5595691",
+                    "data-key": "2017/06/12/6b0d8d80-025e-4f19-b1c6-7cca38b7a256",
+                    "width": 1680.3173828125,
+                    "height": 828.48984375,
+                    "opacity": 1
+                },
+                "data-img-kind": "image/jpeg",
+                "transform": "translate(949.2118778098355,669.2975070646802)rotate(0,840.15869140625,414.24492187500005)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "6008476",
+                    "data-key": "2017/06/29/273f80f4-e61c-47f1-82dd-f88dd7fef7e2",
+                    "width": 2413.881640625,
+                    "height": 180.08048095703126,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#E8636C"
+                    },
+                    "viewBox": "0 0 4771.051880748521 355.93016587885194",
+                    "vary": {
+                        "hx_def": "scale(1,14.647332389048547)"
+                    },
+                    "repeat-width": "4771.051880748521"
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(32.77433392529562,529.203908057045)rotate(0,1206.9408203125001,90.04024047851563)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "68353",
+                    "data-key": "2015/11/19/159287",
+                    "width": 1887.7,
+                    "height": 284.1329345703125,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#F1BB28"
+                    },
+                    "viewBox": "0 0 194 29.2",
+                    "vary": {
+                        "ry": "scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(109.0827275286,547.7214952810269)rotate(0,943.85,142.06646728515625)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "13914",
+                    "data-key": "2015/01/25/14142",
+                    "width": 1854.5,
+                    "height": 398.5406005859375,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#DE5947"
+                    },
+                    "viewBox": "0 0 92.6 19.9",
+                    "vary": {
+                        "n": "translate(0,0) scale(1,1)",
+                        "ne": "translate(0,0) scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(319.9588331203,952.1528633136818)rotate(0,927.25,199.27030029296876)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "13914",
+                    "data-key": "2015/01/25/14142",
+                    "width": 2152,
+                    "height": 462.461474609375,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#DE5947"
+                    },
+                    "viewBox": "0 0 92.6 19.9",
+                    "vary": {
+                        "n": "translate(0,0) scale(1,1)",
+                        "ne": "translate(0,0) scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(35.9324082439,406.0097186441183)rotate(0,1076,231.23073730468752)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "68353",
+                    "data-key": "2015/11/19/159287",
+                    "width": 2150.8,
+                    "height": 323.7231201171875,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#F1BB28"
+                    },
+                    "viewBox": "0 0 194 29.2",
+                    "vary": {
+                        "ry": "scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(1099.528725593418,1638.1743686900259) rotate(0,927.25,199.27030029296876) scale(1,1)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "68353",
+                    "data-key": "2015/11/19/159287",
+                    "width": 2353.792578125,
+                    "height": 354.282177734375,
+                    "opacity": 1,
+                    "shadow":{
+                        "blur":40,
+                        "offset":100,
+                        "opacity":1,
+                        "show":true
+                    },
+                    "data-colors": {
+                        "color-1": "rgb(39, 227, 52)"
+                    },
+                    "viewBox": "0 0 194 29.2",
+                    "vary": {
+                        "ry": "scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(1003.3220580085592,728.6026467398094)rotate(40.99552857453532,1176.8962890625,177.14112548828126)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "3820",
+                    "data-key": "2015/01/12/3842",
+                    "width": 1210.22197265625,
+                    "height": 1210.22197265625,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "rgb(225, 14, 81)",
+                        "color-2": "#FCB415",
+                        "color-3": "rgb(39, 227, 52)",
+                        "color-4": "#8BC4C6"
+                    },
+                    "shadow":{},
+                    "viewBox": "0 0 29.7 29.7",
+                    "vary": {}
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(411.4950451569076,925.4483333751825)rotate(0,605.110986328125,607.14833984375)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "5981222",
+                    "data-key": "2017/06/28/a063aa93-bd92-452c-870c-65171aa91247",
+                    "width": 3577.589453125,
+                    "height": 40.652679443359375,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "rgb(72, 72, 72)"
+                    },
+                    "viewBox": "0 0 6653.015066964286 75.59917772287547",
+                    "vary": {
+                        "ry": "scale(3.510825892857143,4.199954317937526)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(-42.68790717596027,1251.6220454216964)rotate(225,1788.7947265625,20.32633514404297)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            }
+        ],
+        "elegroups": {}
+    },
+    {
+        "width": 2900.0,
+        "height": 2500.0,
+        "elems": [
+            {
+                "data-type": "background",
+                "data-elem": {
+                    "filter": {
+                        "brightness": 0,
+                        "contrast": 0,
+                        "crossProcess": 0,
+                        "gaussianBlur": 0,
+                        "saturation": 0,
+                        "tint": 0
+                    },
+                    "id": "292747",
+                    "data-key": "2016/03/28/659472",
+                    "width": 3826.771875,
+                    "height": 2551.18125,
+                    "opacity": 1,
+                    "lock": "true"
+                },
+                "data-img-kind": "image/jpg",
+                "transform": "translate(-124.01570921435518,0)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgFrame",
+                "data-elem": {
+                    "id": "16003",
+                    "data-key": "2015/03/03/16895",
+                    "width": 1414.32607421875,
+                    "height": 1414.32607421875,
+                    "opacity": 1,
+                    "filter": {
+                        "brightness": 3,
+                        "contrast": 55,
+                        "crossProcess": 27,
+                        "gaussianBlur": -14,
+                        "saturation": -28,
+                        "tint": -73
+                    },
+                    "data-xhref-imgs": {
+                        "sorb_1": {
+                            "data-class": "sorb_1",
+                            "data-img-key": "2016/06/26/277f42c5-3f3b-4586-a1c8-1ca89dad880f",
+                            "x": "-56.2098109130485",
+                            "y": "0.09303927421569824",
+                            "width": "501.7886128434386",
+                            "height": "334.5257568359375",
+                            "transform": "",
+                            "id": "674818"
+                        },
+                        "sorb_2": {
+                            "data-class": "sorb_2",
+                            "data-img-key": "2016/01/09/326967",
+                            "x": "229.98537688775775",
+                            "y": "-0.3000224828720093",
+                            "width": "595.5916546717501",
+                            "height": "390.2157897949219",
+                            "transform": "",
+                            "id": "143812"
+                        },
+                        "sorb_3": {
+                            "data-class": "sorb_3",
+                            "data-img-key": "2015/12/25/270332",
+                            "x": "-124.13649904945117",
+                            "y": "303.2331237792969",
+                            "width": "583.6669012947604",
+                            "height": "389.1112976074219",
+                            "transform": "",
+                            "id": "118395"
+                        },
+                        "sorb_4": {
+                            "data-class": "sorb_4",
+                            "data-img-key": "2015/12/25/270916",
+                            "x": "245.60260375401015",
+                            "y": "357.6706237792969",
+                            "width": "505.39418824393283",
+                            "height": "336.9294738769531",
+                            "transform": "",
+                            "id": "118816"
+                        }
+                    },
+                    "filter": {
+                        "brightness": 0,
+                        "contrast": 0,
+                        "crossProcess": 0,
+                        "gaussianBlur": 0,
+                        "saturation": 0,
+                        "tint": 0
+                    },
+                    "data-colors": {},
+                    "viewBox": "0 0 694.4 694.4",
+                    "vary": {}
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(632.9000348862818,257.6053486622494)rotate(0,707.1630371093751,707.1630371093751)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "img",
+                "data-elem": {
+                    "filter": {
+                        "brightness": 0,
+                        "contrast": 0,
+                        "crossProcess": 0,
+                        "gaussianBlur": 0,
+                        "saturation": 0,
+                        "tint": 0
+                    },
+                    "id": "120162",
+                    "width": 490.096337890625,
+                    "height": 568.226904296875,
+                    "opacity": 1
+                },
+                "data-img-kind": "image/jpg",
+                "transform": "translate(960.9167393271764,809.18658536925587)rotate(0,245.0481689453125,284.1134521484375)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "68353",
+                    "data-key": "2015/11/19/159287",
+                    "width": 1887.7,
+                    "height": 284.1329345703125,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#F1BB28"
+                    },
+                    "viewBox": "0 0 194 29.2",
+                    "vary": {
+                        "ry": "scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(339.0827275286,547.7214952810269)rotate(0,943.85,142.06646728515625)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "68353",
+                    "data-key": "2015/11/19/159287",
+                    "width": 2150.8,
+                    "height": 323.7231201171875,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "#F1BB28"
+                    },
+                    "viewBox": "0 0 194 29.2",
+                    "vary": {
+                        "ry": "scale(1,1)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(970.0030103214,863.8528120601294)rotate(0,1075.4,161.86156005859377)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgImage",
+                "data-elem": {
+                    "id": "5981222",
+                    "data-key": "2017/06/28/a063aa93-bd92-452c-870c-65171aa91247",
+                    "width": 3577.589453125,
+                    "height": 40.652679443359375,
+                    "opacity": 1,
+                    "data-colors": {
+                        "color-1": "rgb(72, 72, 72)"
+                    },
+                    "viewBox": "0 0 6653.015066964286 75.59917772287547",
+                    "vary": {
+                        "ry": "scale(3.510825892857143,4.199954317937526)"
+                    }
+                },
+                "data-img-kind": "image/svg+xml",
+                "transform": "translate(-42.68790717596027,251.6220454216964)rotate(225,1788.7947265625,20.32633514404297)",
+                "reverse": " translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgChart",
+                "data-elem": {
+                    "data-key": "",
+                    "opacity": 1,
+                    "id": "",
+                    "view-width": 500,
+                    "view-height": 500,
+                    "width": 800.4513671875,
+                    "height": 800.12607421875,
+                    "viewBox": "9.421875 24 788.578125 830",
+                    "chart-data": [
+                        {
+                            "name": "苹果",
+                            "value": 40
+                        },
+                        {
+                            "name": "香蕉",
+                            "value": 30
+                        },
+                        {
+                            "name": "橘子",
+                            "value": 20
+                        },
+                        {
+                            "name": "元岗",
+                            "value": 40
+                        },
+                        {
+                            "name": "志远",
+                            "value": 70
+                        }
+                    ],
+                    "chart-kind": "histogram",
+                    "chart-colors": [
+                        "#158C99",
+                        "#1BAFA1",
+                        "#E9A72C",
+                        "#4E545B",
+                        "#717B87",
+                        "#1B88BA",
+                        "#639080",
+                        "#92C4D9",
+                        "#3E5B79",
+                        "#A7B4C4"
+                    ],
+                    "chart-title": "默认标题",
+                    "chart-titleShow": true,
+                    "chart-titleColor": "#808284",
+                    "chart-titlePosition": "top",
+                    "chart-axisShow": true,
+                    "chart-axisTitleShow": true,
+                    "chart-xAxisTitle": "X轴标题",
+                    "chart-yAxisTitle": "Y轴标题",
+                    "chart-yAxisNumMin": 0,
+                    "chart-yAxisNumMax": 0,
+                    "chart-gridShow": true,
+                    "chart-legendShow": true
+                },
+                "transform": "translate(1151.57484,637.795296)rotate(0, 250, 250)",
+                "reverse": "translate(0,0)rotate(0,0,0)"
+            }
+        ],
+        "elegroups": {}
+    },
+    {
+        "width": 2900.0,
+        "height": 2500.0,
+        "elems": [
+            {
+                "data-type": "background",
+                "data-elem": {
+                    "filter": {
+                        "brightness": 0,
+                        "contrast": 0,
+                        "crossProcess": 0,
+                        "gaussianBlur": 0,
+                        "saturation": 0,
+                        "tint": 0
+                    },
+                    "data-key": "false",
+                    "width": 2900.0,
+                    "height": 2500.0,
+                    "opacity": "1",
+                    "data-colors": {
+                        "0": "rgb(5, 25, 255)"
+                    }
+                },
+                "transform": "translate(0,0)",
+                "reverse": ""
+            },
+            {
+                "data-type": "table",
+                "data-elem": {
+                    "col": 2,
+                    "row": 2,
+                    "width": 815,
+                    "height": 265,
+                    "opacity": 1,
+                    "line-width": 5,
+                    "viewBox": "0 0 815 265",
+                    "row-heights": [
+                        150,
+                        100
+                    ],
+                    "col-widths": [
+                        500,
+                        300
+                    ],
+                    "colors": [
+                        "#07AEFC",
+                        "#ccc",
+                        "#66de58"
+                    ],
+                    "cells": [
+                        [
+                            {
+                                "font-size": 12,
+                                "font-family": "Microsoft YaHei",
+                                "wspace": 0,
+                                "data-align": "center",
+                                "html": "单元格",
+                                "ftc": "#fff",
+                                "bgc": 0,
+                                "lc": 1,
+                                "tc": 2,
+                                "rc": 1,
+                                "bc": 2,
+                                "contents": [
+                                    {
+                                        "data-txt": "单",
+                                        "x": 44,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "元",
+                                        "x": 88,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "格",
+                                        "x": 132,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    }
+                                ]
+                            },
+                            {
+                                "font-size": 12,
+                                "font-family": "Microsoft YaHei",
+                                "wspace": 0,
+                                "data-align": "center",
+                                "html": "单元格",
+                                "ftc": "#fff",
+                                "bgc": 0,
+                                "lc": 1,
+                                "tc": 2,
+                                "rc": 1,
+                                "bc": 2,
+                                "contents": [
+                                    {
+                                        "data-txt": "单",
+                                        "x": 644,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "元",
+                                        "x": 688,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "格",
+                                        "x": 732,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "font-size": 12,
+                                "font-family": "Microsoft YaHei",
+                                "wspace": 0,
+                                "data-align": "center",
+                                "html": "单元格",
+                                "ftc": "#fff",
+                                "bgc": 0,
+                                "lc": 1,
+                                "tc": 2,
+                                "rc": 1,
+                                "bc": 2,
+                                "contents": [
+                                    {
+                                        "data-txt": "单",
+                                        "x": 44,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "元",
+                                        "x": 88,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "格",
+                                        "x": 132,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    }
+                                ]
+                            },
+                            {
+                                "font-size": 12,
+                                "font-family": "Microsoft YaHei",
+                                "wspace": 0,
+                                "data-align": "center",
+                                "html": "单元格",
+                                "ftc": "#fff",
+                                "bgc": 0,
+                                "lc": 1,
+                                "tc": 2,
+                                "rc": 1,
+                                "bc": 2,
+                                "contents": [
+                                    {
+                                        "data-txt": "单",
+                                        "x": 644,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "元",
+                                        "x": 688,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#fff"
+                                    },
+                                    {
+                                        "data-txt": "格",
+                                        "x": 732,
+                                        "stroke-width": 0,
+                                        "fill": "#fff",
+                                        "style": "font-size: 44px;font-family:Microsoft YaHei;",
+                                        "stroke": "#000"
+                                    }
+                                ]
+                            }
+                        ]
+                    ],
+                    "default-width": 300,
+                    "default-height": 100,
+                    "default-cell": {
+                        "font-size": 12,
+                        "font-family": "Microsoft YaHei",
+                        "wspace": 0,
+                        "data-align": "center",
+                        "html": "",
+                        "ftc": "#fff",
+                        "bgc": 1,
+                        "lc": 2,
+                        "tc": 2,
+                        "rc": 2,
+                        "bc": 2,
+                        "contents": []
+                    }
+                },
+                "transform": "translate(100,100)rotate(0,0,0)"
+            },
+            {
+                "data-type": "svgChart",
+                "data-elem": {
+                    "data-key": "",
+                    "opacity": 1,
+                    "id": "",
+                    "view-width": 500,
+                    "view-height": 500,
+                    "width": 800.4513671875,
+                    "height": 800.12607421875,
+                    "viewBox": "9.421875 24 788.578125 830",
+                    "chart-data": [
+                        {
+                            "name": "苹果",
+                            "value": 40
+                        },
+                        {
+                            "name": "香蕉",
+                            "value": 30
+                        },
+                        {
+                            "name": "橘子",
+                            "value": 20
+                        },
+                        {
+                            "name": "元岗",
+                            "value": 40
+                        },
+                        {
+                            "name": "志远",
+                            "value": 70
+                        }
+                    ],
+                    "chart-kind": "histogram",
+                    "chart-colors": [
+                        "#158C99",
+                        "#1BAFA1",
+                        "#E9A72C",
+                        "#4E545B",
+                        "#717B87",
+                        "#1B88BA",
+                        "#639080",
+                        "#92C4D9",
+                        "#3E5B79",
+                        "#A7B4C4"
+                    ],
+                    "chart-title": "默认标题",
+                    "chart-titleShow": true,
+                    "chart-titleColor": "#808284",
+                    "chart-titlePosition": "top",
+                    "chart-axisShow": true,
+                    "chart-axisTitleShow": true,
+                    "chart-xAxisTitle": "X轴标题",
+                    "chart-yAxisTitle": "Y轴标题",
+                    "chart-yAxisNumMin": 0,
+                    "chart-yAxisNumMax": 0,
+                    "chart-gridShow": true,
+                    "chart-legendShow": true
+                },
+                "transform": "translate(1151.57484,637.795296) rotate(0,0,0)",
+                "reverse": "translate(0,0)rotate(0,0,0)"
+            },
+            {
+                "data-type": "text",
+                "data-elem": {
+                    "data-key": "",
+                    "opacity": 1,
+                    "width": 752.5984492800001,
+                    "height": 159.448824,
+                    "font-size": 111.61417680000001,
+                    "font-family": "Microsoft YaHei",
+                    "fill": "#000",
+                    "wspace": "200",
+                    "data-align": "center",
+                    "paragraphs": [
+                        {
+                            "transform": "translate(0,0)rotate(0,0,0)",
+                            "autolines": [
+                                {
+                                    "transform": "translate(0,0)rotate(0,0,0)",
+                                    "contents": [
+                                        {
+                                            "data-txt": "双",
+                                            "x": 108.39922464000001,
+                                            "stroke-width": 2.5299213408000005,
+                                            "fill": "#000",
+                                            "style": "font-size:111.61417680000001px;font-family: Microsoft YaHei;font-style: italic;text-decoration: underline;",
+                                            "stroke": "#000"
+                                        },
+                                        {
+                                            "data-txt": "击",
+                                            "x": 242.34922464000002,
+                                            "stroke-width": 2.5299213408000005,
+                                            "fill": "#000",
+                                            "style": "font-size:111.61417680000001px;font-family: Microsoft YaHei;font-style: italic;text-decoration: underline;",
+                                            "stroke": "#000"
+                                        },
+                                        {
+                                            "data-txt": "修",
+                                            "x": 376.29922464000003,
+                                            "stroke-width": 2.5299213408000005,
+                                            "fill": "#000",
+                                            "style": "font-size:111.61417680000001px;font-family: Microsoft YaHei;font-style: italic;text-decoration: underline;",
+                                            "stroke": "#000"
+                                        },
+                                        {
+                                            "data-txt": "改",
+                                            "x": 510.24922464,
+                                            "stroke-width": 2.5299213408000005,
+                                            "fill": "#000",
+                                            "style": "font-size:111.61417680000001px;font-family: Microsoft YaHei;font-style: italic;text-decoration: underline;",
+                                            "stroke": "#000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "vspace": "186",
+                    "data-decoration": "true",
+                    "data-bold": 0.45,
+                    "data-italic": "true"
+                },
+                "html": "双击修改",
+                "transform": "translate(858.1890038400002,810.0000259200001)rotate(0,376.29921875,-44.400000000000006)",
+                "v": "1.0.1"
+            }
+        ],
+        "elegroups": {}
+    }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>素材上下等距@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="素材上下等距" fill="#626262">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Fill-1" points="0.461835937 15.1752344 15.4779883 15.1752344 15.4779883 13.9252344 0.461835937 13.9252344"></polygon>
+                <polygon id="Fill-2" points="0.461835937 2.07185547 15.4779883 2.07185547 15.4779883 0.821855469 0.461835937 0.821855469"></polygon>
+                <path d="M3.59564453,9.84453125 L12.3441992,9.84453125 L12.3441992,6.09525391 L3.59564453,6.09525391 L3.59564453,9.84453125 Z M2.34564453,11.0945312 L13.5941992,11.0945312 L13.5941992,4.84525391 L2.34564453,4.84525391 L2.34564453,11.0945312 Z" id="Fill-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

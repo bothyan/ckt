@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="77px" viewBox="0 0 35 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#5EA2FF" offset="0%"></stop>
+            <stop stop-color="#00D5FF" offset="62.5956633%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy-5" transform="translate(-351.000000, -453.000000)" fill="url(#linearGradient-1)">
+            <g transform="translate(351.000000, 453.000000)" id="Combined-Shape">
+                <path d="M34.9929945,18 L35,18 L35,59 L34.9929945,59 C34.9976545,59.1660981 35,59.3327751 35,59.5 C35,69.1649831 27.1649831,77 17.5,77 C7.83501688,77 0,69.1649831 0,59.5 C0,59.3327751 0.00234552152,59.1660981 0.00700546058,59 L0,59 L0,18 L0.00700546058,18 C0.00234552152,17.8339019 0,17.6672249 0,17.5 C0,7.83501688 7.83501688,0 17.5,0 C27.1649831,0 35,7.83501688 35,17.5 C35,17.6672249 34.9976545,17.8339019 34.9929945,18 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

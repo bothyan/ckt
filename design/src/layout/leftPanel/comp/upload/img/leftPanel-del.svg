@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>回收站</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="回收站" fill="#626262">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Fill-1" points="8.93672656 1.75600781 8.93672656 0.411476562 7.06172656 0.411476562 7.06172656 1.75600781 0.476179687 1.75600781 0.476179687 3.00600781 15.5026836 3.00600781 15.5026836 1.75600781"></polygon>
+                <polygon id="Fill-2" points="12.9388496 15.5494199 3.00424023 15.5494199 1.8783418 4.21422461 3.12220898 4.09066992 4.13623242 14.2994199 11.8119746 14.2994199 12.8765254 4.05162695 14.1198262 4.18080664"></polygon>
+                <polygon id="Fill-3" points="5.93696484 12.6895977 5.45729687 6.22641406 6.70387891 6.13391406 7.18352734 12.5970977"></polygon>
+                <polygon id="Fill-4" points="10.0614902 12.6895977 8.81492773 12.5970977 9.29457617 6.13391406 10.5411582 6.22641406"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

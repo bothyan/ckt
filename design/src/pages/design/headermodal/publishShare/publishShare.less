@@ -1,0 +1,394 @@
+
+.publish-share {
+  width: 640px;
+  height: 400px;
+  background: #fff;
+  .header{
+    height: 62px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    .header-bar{
+      width: 272px;
+      margin: auto;
+      span{
+        float: left;
+        width: 136px;
+        height: 62px;
+        font-size: 14px;
+        color: #bfbfbf;
+        line-height: 62px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .active {
+        color: #626262;
+        background: #f6f6f6;
+      }
+    }
+  }
+}
+.share {
+  width: 440px;
+  height: 230px;
+  margin: auto;
+  margin-top: 37px;
+  .share-link{
+    height: 40px;
+    .share-icon {
+      float: left;
+      width: 40px;
+      height: 40px;
+      background: url(./img/share.svg) no-repeat center;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+    .share-url {
+      float: left;
+      font-size: 12px;
+      width: 235px;
+      height: 40px;
+      margin-left: 14px;
+      color: #626262;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+      border: none;
+    }
+    .share-copy {
+      float: left;
+      margin-left: 14px;
+      width: 90px;
+      height: 40px;
+      background: #07aefc;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  .choose {
+    height: 18px;
+    margin-top: 18px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.62);
+    .checkbox{
+      float: left;
+      width: 14px;
+      height: 14px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    .no-active {
+      border: 1px solid #d9d9d9;
+      &:hover {
+        border: 1px solid #07aefc;
+      }
+    }
+    .active {
+      background: url(./img/checkbox.svg) no-repeat center;
+    }
+    .tip-text {
+      float: left;
+      margin-left: 8px;
+    }
+  }
+  .share-other {
+    margin-top: 32px;
+    color: #626262;
+    .other-list{
+      margin-top: 12px;
+      .list-item {
+        float: left;
+        width: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        &:hover {
+          .icon {
+            background-position-y: -42px;
+          }
+        }
+        .icon {
+          display: block;
+          width: 43px;
+          height: 42px;
+        }
+        .icon-text {
+          margin-top: 10px;
+          font-size: 12px;
+          text-align: center;
+        }
+        .icon-qq {
+          background: url(./img/thirdParty.svg) no-repeat 0 0;
+        }
+        .icon-wechat {
+          background: url(./img/thirdParty.svg) no-repeat -43px 0;
+        }
+        .icon-weibo {
+          background: url(./img/thirdParty.svg) no-repeat -86px 0;
+        }
+      }
+    }
+  }
+}
+
+.activity {
+  width: 496px;
+  margin: auto;
+  margin-top: 20px;
+  .label-text{
+    color: #626262;
+    float: left;
+    line-height: 20px;
+    margin-top: 10px;
+    width: 70px;
+    margin-right: 24px;
+  }
+  .word-limit {
+    color: #bdbdbd;
+    position: absolute;
+    line-height: 20px;
+    right: 10px;
+    bottom: 10px;
+  }
+  .activity-title {
+    height: 40px;
+    position: relative;
+    .title-input {
+      float: left;
+      width: 400px;
+      height: 40px;
+      padding-left: 16px;
+      color: #626262;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+  }
+  .activity-describe {
+    position: relative;
+    margin-top: 16px;
+    height: 135px;
+    .describe-input {
+      float: left;
+      width: 400px;
+      height: 135px;
+      padding: 16px;
+      resize: none;
+      border: none;
+      outline: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+  }
+  .activity-choose{
+    margin-top: 16px;
+    .title {
+      color: #626262;
+      margin-bottom: 2px;
+    }
+    .activity-wrap{
+      float: left;
+      position: relative;
+      width: 336px;
+      height: 40px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+      .no-activity {
+        line-height: 40px;
+        padding: 0 10px;
+        color: #bdbdbd;
+        cursor: pointer;
+      }
+      .activity-active {
+        position: relative;
+        line-height: 40px;
+        padding: 0 10px;
+        color: #626262;
+        cursor: pointer;
+        &:before {
+          content: "";
+          position: absolute;
+          right: 9px;
+          top: 16px;
+          width: 0;
+          height: 0;
+          border-top: 8px solid #626262;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          right: 10px;
+          top: 16px;
+          width: 0;
+          height: 0;
+          border-top: 7px solid #fff;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+        }
+      }
+      .activity-list {
+        position: absolute;
+        top: 100%;
+        width: 336px;
+        max-height: 160px;
+        background: #fff;
+        overflow-y: auto;
+        .list-item {
+          line-height: 40px;
+          padding-left: 24px;
+          color: #bdbdbd;
+          cursor: default;
+        }
+        .can-join {
+          color: #626262;
+          cursor: pointer;
+          &:hover {
+            background: #f2f2f2;
+          }
+        }
+      }
+    }
+    .just-join {
+      float: left;
+      line-height: 40px;
+      margin-left: 24px;
+      width: 136px;
+      height: 40px;
+      background: #07aefc;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.activity-success {
+  width: 474px;
+  margin: auto;
+  .title {
+    margin-top: 16px;
+    font-size: 24px;
+    color: #626262;
+    text-align: center;
+  }
+  .share-link{
+    height: 40px;
+    margin-top: 23px;
+    .share-icon {
+      float: left;
+      width: 40px;
+      height: 40px;
+      background: url(./img/share.svg) no-repeat center;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+    .share-url {
+      float: left;
+      font-size: 12px;
+      width: 185px;
+      height: 40px;
+      margin-left: 14px;
+      color: #626262;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+      border: none;
+    }
+    .join-copy {
+      float: left;
+      margin-left: 14px;
+      width: 100px;
+      height: 40px;
+      color: #9b9b9b;
+      background: #fff;
+      line-height: 40px;
+      text-align: center;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+    .open-link {
+      float: left;
+      margin-left: 14px;
+      width: 100px;
+      height: 40px;
+      background: #07aefc;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  .share-other {
+    margin-top: 32px;
+    color: #626262;
+    .other-list{
+      margin-top: 12px;
+      height: 66px;
+      .list-item {
+        float: left;
+        width: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        &:hover {
+          .icon {
+            background-position-y: -42px;
+          }
+        }
+        .icon {
+          display: block;
+          width: 43px;
+          height: 42px;
+        }
+        .icon-text {
+          margin-top: 10px;
+          font-size: 12px;
+          text-align: center;
+        }
+        .icon-qq {
+          background: url(./img/thirdParty.svg) no-repeat 0 0;
+        }
+        .icon-wechat {
+          background: url(./img/thirdParty.svg) no-repeat -43px 0;
+        }
+        .icon-weibo {
+          background: url(./img/thirdParty.svg) no-repeat -86px 0;
+        }
+      }
+    }
+  }
+  .look-join {
+    display: block;
+    width: 236px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    background: #07aefc;
+    color: #fff;
+  }
+}
+
+.qrcode-page {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0, .08);
+  p {
+    margin-top: 8px;
+  }
+}
+.weixin-text{
+  display:inline-block;
+  margin-bottom:8px;
+}
+.blue-btn {
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    background-image: linear-gradient(90deg,#5ea2ff,#00e3ff)!important;
+  }
+}
